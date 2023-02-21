@@ -156,3 +156,36 @@ export const optionsHeatMap = {
     }
   }
 }
+
+export const optionsArea = {
+  dataLabels: {
+    enabled: false
+  },
+  stroke: {
+    curve: 'smooth'
+  },
+  xaxis: {
+    type: 'datetime',
+    categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
+  },
+  tooltip: {
+    x: {
+      format: 'dd/MM/yy HH:mm'
+    },
+  },
+}
+
+export const seriesPM = [{
+  name: 'PM10',
+  data: [31, 40, 28, 51, 42, 109, 100]
+}, {
+  name: 'PM2.5',
+  data: [11, 32, 45, 32, 34, 52, 41]
+}]
+
+export const seriesPpm = [
+  {
+    name: 'NO2',
+    data: generateData(7, {min:10, max:100})
+  },
+]

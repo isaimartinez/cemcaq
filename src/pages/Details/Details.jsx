@@ -1,7 +1,8 @@
 import React from 'react'
 import { useDetails } from './useDetails'
-import {Header, ContaminantItem, HeatMapChart} from '../../components'
+import {Header, ContaminantItem, HeatMapChart, AreaChart} from '../../components'
 import { contaminants } from '../../data'
+import {seriesPM, seriesPpm} from '../../data/staticCharts'
 
 const Details = () => {
   const {id, station} = useDetails()
@@ -34,6 +35,7 @@ const Details = () => {
         <div className='flex flex-row  w-full'>
           <div className='flex flex-col basis-1/2 grid-cols-3 justify-items-center w-full gap-10 m-5 p-3 bg-secondary-dark rounded'>
             <p className='text-neutral-50 text-2xl'>NO2 vs CO vs O3 vs SO2</p>
+            <AreaChart series={seriesPM}/>
           </div>
           <div className='flex flex-col basis-1/2 grid-cols-3 justify-items-center w-full gap-10 m-5 p-3 bg-secondary-dark rounded'>
             <p className='text-neutral-50 text-2xl'>PM10 vs PM2.5</p>
