@@ -1,21 +1,20 @@
-import './App.css';
+import React from 'react'
+import { Routes, Route} from 'react-router-dom'
+import {Dashboard, Details} from './pages'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className='flex relative dark:bg-main-dark-bg'>
+        <div className='bg-main-bg dark:bg-main-dark-bg  w-full min-h-screen'>
+          <div>
+            <Routes>
+              <Route path="/" element={<Dashboard />}/>
+              <Route path="/estaciones/:id" element={<Details />}/>
+            </Routes>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
