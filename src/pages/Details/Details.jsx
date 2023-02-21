@@ -1,10 +1,16 @@
 import React from 'react'
-import { useParams } from 'react-router-dom';
+import { useDetails } from './useDetails'
+import {Header} from '../../components'
 
 const Details = () => {
-  const {id} = useParams()
+  const {id, station} = useDetails()
+  
+  if(station) 
   return (
-    <div>Details</div>
+    <>
+      <Header title={`${station.name} ${station.id}`}/>
+      <div>{station.id}</div>
+    </>
   )
 }
 

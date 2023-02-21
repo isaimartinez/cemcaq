@@ -5,7 +5,7 @@ import {Dashboard, Details} from './pages'
 function App() {
   return (
     <div>
-      <div className='flex relative dark:bg-main-dark-bg'>
+      <div className='flex relative dark:bg-main-dark-bg select-none'>
         <div className='bg-main-bg dark:bg-main-dark-bg  w-full min-h-screen'>
           <div>
             <Routes>
