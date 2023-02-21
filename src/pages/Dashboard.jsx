@@ -6,7 +6,7 @@ const Dashboard = () => {
     <>
       <Header title={"CALIDAD DEL AIRE ACTUAL"}/>
       <section className='flex w-full mt-10 '>
-        <div className='grid grid-cols-3 justify-items-center w-full gap-5 m-10 '>
+        <div className='grid grid-cols-3 justify-items-center w-full gap-10 m-10 '>
           {
             stations.map((station, i) => (<StationItem station={station} key={`StationItem-${i}`}/>))
           }

@@ -42,7 +42,7 @@ export const smoothLineOptions = {
       top: 1,
       left: 1,
       blur: 2,
-      opacity: 0.2,
+      opacity: 0.1,
     }
   },
   stroke: {
@@ -59,7 +59,7 @@ export const smoothLineOptions = {
       left: 0
     }
   },
-  colors: ['#fff'],
+  colors: ['rgba(255, 255, 255, 1)'],
   xaxis: {
     crosshairs: {
       width: 1
