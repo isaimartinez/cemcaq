@@ -1,5 +1,5 @@
 import React from 'react'
-import LineChart from '../LineChart'
+import LineChart from '../Charts/LineChart'
 import { getGradient } from '../../utils'
 import {useNavigate} from 'react-router-dom'
 
