@@ -8,7 +8,7 @@ const Header = ({title}) => {
         <img src={Logo} alt="Logo"/>
       </div>
       <div className='flex basis-1/3 items-center justify-center '>
-        <p>{title}</p>
+        <p className='text-3xl'>{title}</p>
       </div>
       <div className='flex basis-1/3'/>
     </div>
