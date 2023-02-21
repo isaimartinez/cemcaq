@@ -1,0 +1,17 @@
+import React from 'react'
+import LineChart from '../LineChart'
+import { getGradient } from '../../utils'
+
+const ContaminantItem = ({contaminant}) => {
+  return (
+    <div className={`flex flex-col w-full h-52  rounded cursor-pointer bg-gradient-to-r ${getGradient(contaminant.bg)}`}>
+      <div className='flex flex-col items-center justify-center p-1'>
+        <p className='text-xl'>{contaminant.name}</p>
+        <p className='text-base'>{contaminant.id} ({contaminant.unit})</p>
+      </div>
+      <LineChart id={contaminant.id}/>
+    </div>
+  )
+}
+
+export default ContaminantItem

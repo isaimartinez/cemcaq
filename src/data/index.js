@@ -31,6 +31,38 @@ export const stations = [
   },
 ]
 
+export const contaminants = [{
+  id: "NO2",
+  name: "Dióxido de Nitrógeno",
+  unit: "ppm",
+  bg: "red"
+},{
+  id: "CO",
+  name: "Mónoxido de Carbono",
+  unit: "ppm",
+  bg: "yellow"
+},{
+  id: "O3",
+  name: "Ozono promedio horario",
+  unit: "ppm",
+  bg: "red"
+},{
+  id: "SO2",
+  name: "Dióxido de Azufre",
+  unit: "ppm",
+  bg: "green"
+},{
+  id: "PM2.5",
+  name: "Material Particulado",
+  unit: "ug/m^3",
+  bg: "yellow"
+},{
+  id: "NO2",
+  name: "Material Particulado",
+  unit: "ug/m^3",
+  bg: "green"
+},]
+
 
 export const smoothLineOptions = {
   chart: {

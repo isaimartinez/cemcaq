@@ -1,6 +1,7 @@
 import React from 'react'
 import { useDetails } from './useDetails'
-import {Header} from '../../components'
+import {Header, ContaminantItem} from '../../components'
+import { contaminants } from '../../data'
 
 const Details = () => {
   const {id, station} = useDetails()
@@ -9,7 +10,13 @@ const Details = () => {
   return (
     <>
       <Header title={`${station.name} ${station.id}`}/>
-      <div>{station.id}</div>
+      <section className='flex w-full mt-10 '>
+        <div className='grid grid-cols-3 justify-items-center w-full gap-10 m-5 p-3 bg-secondary-dark rounded'>
+          {
+            contaminants.map((contaminant, i) => (<ContaminantItem contaminant={contaminant} key={`StationItem-${i}`}/>))
+          }
+        </div>
+      </section>
     </>
   )
 }
