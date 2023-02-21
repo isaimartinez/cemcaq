@@ -158,15 +158,55 @@ export const optionsHeatMap = {
 }
 
 export const optionsArea = {
+  chart: {
+    toolbar: {
+      show: false,
+    },
+    selection: {
+      enabled: false
+    }
+  },
+  grid: {
+    show: false,
+    padding: {
+      top: 0,
+      right: 0,
+      bottom: 0,
+      left: 0
+    }
+  },
   dataLabels: {
     enabled: false
+  },
+  legend: {
+    show: true,
+    fontSize: '18px',
+    color: "#fff",
+    labels: {
+      colors: "#fff",
+      useSeriesColors: false
+    },
+  },
+  states: {
+    hover: {
+        filter: {
+            type: 'none',
+        }
+    },
   },
   stroke: {
     curve: 'smooth'
   },
   xaxis: {
     type: 'datetime',
-    categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
+    categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"],
+    labels: {
+      show: true,
+      style: {
+        colors: "white",
+        fontSize: '18px',
+      }
+    }
   },
   tooltip: {
     x: {
