@@ -15,8 +15,8 @@ const StationItem = ({station}) => {
       onClick={goToDetails}
     >
       <div className='flex flex-col items-center justify-center p-1'>
-        <p className='text-xl'>{station.name}</p>
-        <p className='text-base'>{station.id}</p>
+        <p className='text-xl text-neutral-50'>{station.name}</p>
+        <p className='text-base text-neutral-50'>{station.id}</p>
       </div>
       <LineChart id={station.id}/>
     </div>
