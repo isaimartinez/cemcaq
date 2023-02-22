@@ -2,13 +2,13 @@
 export const getGradient = (bg) => {
   switch (bg) {
     case "green":
-      return 'from-green-400 to-green-500'
+      return 'from-green-600 to-green-700'
     case "yellow":
-      return 'from-yellow-400 to-yellow-500'  
+      return 'from-yellow-600 to-yellow-700'  
     case "orange":
-      return 'from-orange-400 to-orange-500' 
+      return 'from-orange-600 to-orange-700' 
     case "red":
-      return 'from-red-400 to-red-500' 
+      return 'from-red-600 to-red-700' 
   }
 }
 
