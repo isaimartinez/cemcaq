@@ -40,7 +40,7 @@ export const contaminants = [{
   id: "CO",
   name: "Mónoxido de Carbono",
   unit: "ppm",
-  bg: "yellow"
+  bg: "orange"
 },{
   id: "O3",
   name: "Ozono promedio horario",

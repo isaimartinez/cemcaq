@@ -2,7 +2,8 @@ import React from 'react'
 import LineChart from '../Charts/LineChart'
 import { getGradient } from '../../utils'
 import {useNavigate} from 'react-router-dom'
-
+import {generateData} from '../../utils'
+ 
 const StationItem = ({station}) => {
   const navigate = useNavigate()
 
@@ -18,7 +19,7 @@ const StationItem = ({station}) => {
         <p className='text-xl text-neutral-50'>{station.name}</p>
         <p className='text-base text-neutral-50'>{station.id}</p>
       </div>
-      <LineChart id={station.id}/>
+      <LineChart id={station.id} series={[{data: generateData(10, {min:10, max:100})}]}/>
     </div>
   )
 }

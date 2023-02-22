@@ -217,15 +217,27 @@ export const optionsArea = {
 
 export const seriesPM = [{
   name: 'PM10',
-  data: [31, 40, 28, 51, 42, 109, 100]
+  data: generateData(7, {min:10, max:100})
 }, {
   name: 'PM2.5',
-  data: [11, 32, 45, 32, 34, 52, 41]
+  data: generateData(7, {min:10, max:100})
 }]
 
 export const seriesPpm = [
   {
     name: 'NO2',
+    data: generateData(7, {min:10, max:100})
+  },
+  {
+    name: 'CO',
+    data: generateData(7, {min:10, max:100})
+  },
+  {
+    name: 'O3',
+    data: generateData(7, {min:10, max:100})
+  },
+  {
+    name: 'SO2',
     data: generateData(7, {min:10, max:100})
   },
 ]

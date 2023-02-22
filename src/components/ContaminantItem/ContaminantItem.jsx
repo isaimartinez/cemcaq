@@ -1,6 +1,7 @@
 import React from 'react'
 import LineChart from '../Charts/LineChart'
 import { getGradient } from '../../utils'
+import {generateData} from '../../utils'
 
 const ContaminantItem = ({contaminant}) => {
   return (
@@ -9,7 +10,7 @@ const ContaminantItem = ({contaminant}) => {
         <p className='text-xl text-neutral-50'>{contaminant.name}</p>
         <p className='text-base text-neutral-50'>{contaminant.id} ({contaminant.unit})</p>
       </div>
-      <LineChart id={contaminant.id}/>
+      <LineChart id={contaminant.id} series={[{data: generateData(10, {min:10, max:100})}]}/>
     </div>
   )
 }
