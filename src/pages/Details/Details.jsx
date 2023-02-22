@@ -2,7 +2,7 @@ import React from 'react'
 import { useDetails } from './useDetails'
 import {Header, ContaminantItem, HeatMapChart, AreaChart} from '../../components'
 import { contaminants } from '../../data'
-import {seriesPM, seriesPpm} from '../../data/staticCharts'
+import {seriesPM, seriesPpm} from '../../data/chartsConfig'
 
 const Details = () => {
   const {id, station} = useDetails()

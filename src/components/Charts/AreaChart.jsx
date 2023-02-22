@@ -1,5 +1,5 @@
 import React from 'react'
-import {optionsArea} from '../../data/staticCharts'
+import {optionsArea} from '../../data/chartsConfig'
 import Chart from 'react-apexcharts'
 
 const AreaChart = ({series}) => {

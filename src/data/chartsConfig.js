@@ -241,3 +241,51 @@ export const seriesPpm = [
     data: generateData(7, {min:10, max:100})
   },
 ]
+
+
+export const smoothLineOptions = {
+  chart: {
+    sparkline: {
+      enabled: true
+    },
+    dropShadow: {
+      enabled: true,
+      top: 1,
+      left: 1,
+      blur: 2,
+      opacity: 0.1,
+    }
+  },
+  stroke: {
+    curve: 'smooth'
+  },
+  markers: {
+    size: 0
+  },
+  grid: {
+    padding: {
+      top: 0,
+      right: 0,
+      bottom: 0,
+      left: 0
+    }
+  },
+  colors: ['rgba(255, 255, 255, 1)'],
+  xaxis: {
+    crosshairs: {
+      width: 1
+    },
+  },
+  tooltip: {
+    x: {
+      show: false
+    },
+    y: {
+      title: {
+        formatter: function formatter(val) {
+          return '';
+        }
+      }
+    }
+  }
+}

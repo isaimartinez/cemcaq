@@ -1,6 +1,6 @@
 import React from 'react'
 import Chart from 'react-apexcharts'
-import { smoothLineOptions } from '../../data'
+import { smoothLineOptions } from '../../data/chartsConfig'
 
 const LineChart = ({series}) => {
   return (
