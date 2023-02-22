@@ -57,7 +57,7 @@ export const contaminants = [{
   unit: "ug/m^3",
   bg: "yellow"
 },{
-  id: "NO2",
+  id: "PM10",
   name: "Material Particulado",
   unit: "ug/m^3",
   bg: "green"
