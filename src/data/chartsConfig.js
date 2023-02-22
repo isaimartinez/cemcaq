@@ -1,70 +1,52 @@
 import {generateData} from '../utils'
 
-export const seriesHeatMap = [
-  {
-    name: 'Jan',
-    data: generateData(20, {
-      min: -30,
-      max: 55
-    })
+
+export const smoothLineOptions = {
+  chart: {
+    sparkline: {
+      enabled: true
+    },
+    dropShadow: {
+      enabled: true,
+      top: 1,
+      left: 1,
+      blur: 2,
+      opacity: 0.1,
+    }
   },
-  {
-    name: 'Feb',
-    data: generateData(20, {
-      min: -30,
-      max: 55
-    })
+  stroke: {
+    curve: 'smooth'
   },
-  {
-    name: 'Mar',
-    data: generateData(20, {
-      min: -30,
-      max: 55
-    })
+  markers: {
+    size: 0
   },
-  {
-    name: 'Apr',
-    data: generateData(20, {
-      min: -30,
-      max: 55
-    })
+  grid: {
+    padding: {
+      top: 0,
+      right: 0,
+      bottom: 0,
+      left: 0
+    }
   },
-  {
-    name: 'May',
-    data: generateData(20, {
-      min: -30,
-      max: 55
-    })
+  colors: ['rgba(255, 255, 255, 1)'],
+  xaxis: {
+    crosshairs: {
+      width: 1
+    },
   },
-  {
-    name: 'Jun',
-    data: generateData(20, {
-      min: -30,
-      max: 55
-    })
-  },
-  {
-    name: 'Jul',
-    data: generateData(20, {
-      min: -30,
-      max: 55
-    })
-  },
-  {
-    name: 'Aug',
-    data: generateData(20, {
-      min: -30,
-      max: 55
-    })
-  },
-  {
-    name: 'Sep',
-    data: generateData(20, {
-      min: -30,
-      max: 55
-    })
+  tooltip: {
+    x: {
+      show: false
+    },
+    y: {
+      title: {
+        formatter: function formatter(val) {
+          return '';
+        }
+      }
+    }
   }
-]
+}
 
 export const optionsHeatMap = {
   plotOptions: {
@@ -208,6 +190,13 @@ export const optionsArea = {
       }
     }
   },
+  yaxis: {
+    labels: {
+      style:{
+        colors: "white"
+      }
+    }
+  },
   tooltip: {
     x: {
       format: 'dd/MM/yy HH:mm'
@@ -215,6 +204,122 @@ export const optionsArea = {
   },
 }
 
+export const optionsRadar = {
+  chart: {
+    toolbar: {
+      show: false
+    },
+    dropShadow: {
+      enabled: true,
+      blur: 1,
+      left: 1,
+      top: 1
+    }
+  },
+  stroke: {
+    width: 2
+  },
+  legend: {
+    show: true,
+    fontSize: '18px',
+    color: "#fff",
+    labels: {
+      colors: "#fff",
+      useSeriesColors: false
+    },
+  },
+  fill: {
+    opacity: 0.1
+  },
+  markers: {
+    size: 0
+  },
+  xaxis: {
+    categories: ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
+    labels: {
+      show: true,
+      style: {
+        colors: "white",
+        fontSize: '10px',
+      }
+    }
+  },
+  yaxis: {
+    labels: {
+      style:{
+        colors: "white"
+      }
+    }
+  }
+}
+
+
+// =============== SERIES ===============
+export const seriesHeatMap = [
+  {
+    name: 'Jan',
+    data: generateData(20, {
+      min: -30,
+      max: 55
+    })
+  },
+  {
+    name: 'Feb',
+    data: generateData(20, {
+      min: -30,
+      max: 55
+    })
+  },
+  {
+    name: 'Mar',
+    data: generateData(20, {
+      min: -30,
+      max: 55
+    })
+  },
+  {
+    name: 'Apr',
+    data: generateData(20, {
+      min: -30,
+      max: 55
+    })
+  },
+  {
+    name: 'May',
+    data: generateData(20, {
+      min: -30,
+      max: 55
+    })
+  },
+  {
+    name: 'Jun',
+    data: generateData(20, {
+      min: -30,
+      max: 55
+    })
+  },
+  {
+    name: 'Jul',
+    data: generateData(20, {
+      min: -30,
+      max: 55
+    })
+  },
+  {
+    name: 'Aug',
+    data: generateData(20, {
+      min: -30,
+      max: 55
+    })
+  },
+  {
+    name: 'Sep',
+    data: generateData(20, {
+      min: -30,
+      max: 55
+    })
+  }
+]
 export const seriesPM = [{
   name: 'PM10',
   data: generateData(7, {min:10, max:100})
@@ -242,50 +347,10 @@ export const seriesPpm = [
   },
 ]
 
-
-export const smoothLineOptions = {
-  chart: {
-    sparkline: {
-      enabled: true
-    },
-    dropShadow: {
-      enabled: true,
-      top: 1,
-      left: 1,
-      blur: 2,
-      opacity: 0.1,
-    }
-  },
-  stroke: {
-    curve: 'smooth'
-  },
-  markers: {
-    size: 0
-  },
-  grid: {
-    padding: {
-      top: 0,
-      right: 0,
-      bottom: 0,
-      left: 0
-    }
-  },
-  colors: ['rgba(255, 255, 255, 1)'],
-  xaxis: {
-    crosshairs: {
-      width: 1
-    },
-  },
-  tooltip: {
-    x: {
-      show: false
-    },
-    y: {
-      title: {
-        formatter: function formatter(val) {
-          return '';
-        }
-      }
-    }
-  }
-}
+export const seriesRadar = [{
+  name: 'Hourly Median PM10 Conc',
+  data: generateData(12, {min:20, max: 90}),
+}, {
+  name: 'Median of Highest Daily EWMA PM10 Conc per Month',
+  data: generateData(12, {min:1, max: 60}),
+}]
