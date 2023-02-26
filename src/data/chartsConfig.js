@@ -186,7 +186,7 @@ export const optionsArea = {
       show: true,
       style: {
         colors: "white",
-        fontSize: '18px',
+        fontSize: '15px',
       }
     }
   },

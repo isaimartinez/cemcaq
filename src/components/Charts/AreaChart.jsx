@@ -6,7 +6,7 @@ const AreaChart = ({series, categories}) => {
   return (
     <div>
       <Chart type="area" height={350}  options={
-          categories ? {...optionsArea, xaxis:{categories: categories}} : optionsArea
+          categories ? {...optionsArea, xaxis:{...optionsArea.xaxis,categories: categories}} : optionsArea
         } 
       
         series={series}

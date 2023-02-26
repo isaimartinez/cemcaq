@@ -20,7 +20,17 @@ export const useDetails = () => {
   }
 
   const adaptData = () => {
-    let categories = capPM10.map((obj) => obj.Date_Time)
+    let categories = capPM10.map((obj) => {
+      const inputDateString = obj.Date_Time
+      const [dateStr, timeStr] = inputDateString.split(' ');
+      const [day, month, year] = dateStr.split('/');
+      const [hours, minutes] = timeStr.split(':');
+      console.log(year+2000,month-1,day,hours,minutes,0)
+      const dateObj = new Date(`20${year}`,month-1,day,hours,minutes,0);
+      console.log(dateObj)
+      const outputDateString = new Date(dateObj.toString().split('GMT')[0]+' UTC').toISOString()
+      return outputDateString
+    })
     const data = [
       {
         name: "Mean_EWMA",
