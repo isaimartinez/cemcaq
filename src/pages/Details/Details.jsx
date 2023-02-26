@@ -5,7 +5,7 @@ import { contaminants } from '../../data'
 import {seriesPM, seriesPpm, seriesRadar} from '../../data/chartsConfig'
 
 const Details = () => {
-  const {id, station} = useDetails()
+  const {id, station, pm10Data, pm10Cat} = useDetails()
   
   if(station) 
   return (
@@ -49,7 +49,8 @@ const Details = () => {
             <RadarChart series={seriesRadar}/>
           </div>
           <div className='flex flex-col basis-1/2 grid-cols-3 justify-items-center w-full m-5 p-3 bg-secondary-dark rounded'>
-            {/* <p className='text-neutral-50 text-2xl'>PM10 vs PM2.5</p> */}
+            <p className='text-neutral-50 text-2xl'>PM10 Mean-Max-Min EWMA</p>
+            <AreaChart series={pm10Data} categories={pm10Cat}/>
           </div>
         </div>
 

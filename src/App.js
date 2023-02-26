@@ -1,8 +1,12 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Routes, Route} from 'react-router-dom'
 import {Dashboard, Details} from './pages'
 
 function App() {
+  useEffect(() => {
+    // Load All Stations data
+  }, [])
+  
   return (
     <div>
       <div className='flex relative dark:bg-main-dark-bg select-none'>
