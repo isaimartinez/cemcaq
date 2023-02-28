@@ -13,8 +13,8 @@ export const getGradient = (bg) => {
 }
 
 export const generateData = (l, range) => {
-    const {max, min} = range
-    let data = []
+  const {max, min} = range
+  let data = []
   for (let index = 0; index < l; index++) {
     const x = Math.floor(Math.random() * (max - min + 1) + min)
     data.push(x)

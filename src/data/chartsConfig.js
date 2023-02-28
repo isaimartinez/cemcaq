@@ -134,7 +134,11 @@ export const optionsHeatMap = {
   },
   xaxis: {
     labels: {
-      show: false
+      show: false,
+      style: {
+        colors: "white",
+        fontSize: '15px',
+      }
     }
   }
 }
