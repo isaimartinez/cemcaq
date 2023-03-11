@@ -25,9 +25,7 @@ export const useDetails = () => {
       const [dateStr, timeStr] = inputDateString.split(' ');
       const [day, month, year] = dateStr.split('/');
       const [hours, minutes] = timeStr.split(':');
-      console.log(year+2000,month-1,day,hours,minutes,0)
       const dateObj = new Date(`20${year}`,month-1,day,hours,minutes,0);
-      console.log(dateObj)
       const outputDateString = new Date(dateObj.toString().split('GMT')[0]+' UTC').toISOString()
       return outputDateString
     })
@@ -45,7 +43,6 @@ export const useDetails = () => {
         data: capPM10.map((obj) => parseFloat(obj.Min_EWMA)),
       },
     ];
-    console.log("data", data, categories)
     setPm10Data(data)
     setPm10Cat(categories)
   }

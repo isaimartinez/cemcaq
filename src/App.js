@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import { Routes, Route} from 'react-router-dom'
-import {Dashboard, Details} from './pages'
+import {Home, Details} from './pages'
 
 function App() {
   useEffect(() => {
@@ -13,7 +13,7 @@ function App() {
         <div className='bg-main-bg dark:bg-main-dark-bg  w-full min-h-screen'>
           <div>
             <Routes>
-              <Route path="/" element={<Dashboard />}/>
+              <Route path="/" element={<Home />}/>
               <Route path="/estaciones/:id" element={<Details />}/>
             </Routes>
           </div>
