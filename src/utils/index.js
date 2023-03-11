@@ -11,6 +11,33 @@ export const getGradient = (bg) => {
   }
 }
 
+export const getBg = (bg) => {
+  switch (bg) {
+    case "green":
+      return 'bg-green-600'
+    case "yellow":
+      return 'bg-yellow-600'  
+    case "orange":
+      return 'bg-orange-600' 
+    case "red":
+      return 'bg-red-600' 
+  }
+}
+
+
+export const getDarkerGradient = (bg) => {
+  switch (bg) {
+    case "green":
+      return 'from-green-500 to-green-500'
+    case "yellow":
+      return 'from-yellow-500 to-yellow-500'  
+    case "orange":
+      return 'from-orange-500 to-orange-500' 
+    case "red":
+      return 'from-red-500 to-red-500' 
+  }
+}
+
 export const getContaminantListGradient = (key, x) => {
   if (key.includes('pm')) {
     return getUgmGradient(x)

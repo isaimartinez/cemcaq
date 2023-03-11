@@ -13,18 +13,10 @@ const Details = () => {
       <Header title={`${station.name} ${station.id}`}/>
       <section className='flex flex-col w-full  '>
         <div className='flex flex-row  w-full'>
-          <div className='grid basis-3/4 grid-cols-3 justify-items-center w-full gap-10 m-5 p-3 bg-secondary-dark rounded'>
+          <div className='grid grid-cols-3 justify-items-center w-full gap-10 m-5 p-3 bg-secondary-dark rounded'>
             {
-              contaminants.map((contaminant, i) => (<ContaminantItem contaminant={contaminant} key={`StationItem-${i}`}/>))
+              contaminants.map((contaminant, i) => (<ContaminantItem contaminant={contaminant} station={station} key={`StationItem-${i}`}/>))
             }
-          </div>
-          <div className='flex flex-col basis-1/4 m-5  gap-10'>
-            <div className='basis-1/2 p-3  bg-secondary-dark rounded'>
-              <p className='text-neutral-50 text-2xl'>Predictions</p>
-            </div>
-            <div className='basis-1/2 p-3  bg-secondary-dark rounded'>
-              <p className='text-neutral-50 text-2xl'>Recommendations</p>
-            </div>
           </div>
         </div>
         <div className='flex flex-col m-5 p-3 bg-secondary-dark rounded'>
