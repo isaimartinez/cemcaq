@@ -61,7 +61,6 @@ export const usePollutant = () => {
       const sixAmDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() - i, 6, 0, 0);
       const stram = new Date(sixAmDate.toString().split('GMT')[0]+' UTC').toISOString()
       dates.push(stram);
-
     }
     setHistVsPredCat(dates.reverse())
   }
