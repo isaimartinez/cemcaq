@@ -14,8 +14,8 @@ const Pollutant = () => {
         <div className='flex flex-col m-5 p-3 bg-secondary-dark rounded gap-4'>
           <p className='text-neutral-50 text-3xl'>Forecasted Pollution Levels</p>
           {/* <div className='flex flex-col gap-2'> */}
-            <PollutionLevels />
-            <PollutionLevels />
+            <PollutionLevels title="6am - 6pm (24 hrs)" contaminant={{bg: 'green'}}/>
+            <PollutionLevels title="6am - 6pm (36 hrs)" contaminant={{bg: 'yellow'}}/>
           {/* </div> */}
         </div>
 
