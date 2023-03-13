@@ -5,7 +5,7 @@ import { contaminants } from '../../data'
 import {seriesPM, seriesPpm} from '../../data/chartsConfig'
 
 const Details = () => {
-  const {id, station, pm10Data, pm10Cat} = useDetails()
+  const {id, station,pred36Cat} = useDetails()
   
   if(station) 
   return (
@@ -27,7 +27,7 @@ const Details = () => {
 
         <div className='flex flex-col m-5 p-3 bg-secondary-dark rounded'>
           <p className='text-neutral-50 text-3xl'>Predicted Values PM10 vs PM2.5 (36 hrs)</p>
-          <AreaChart series={seriesPM}/>
+          <AreaChart series={seriesPM} categories={pred36Cat}/>
         </div>
 
       </section>
