@@ -28,7 +28,7 @@ const Pollutant = () => {
           <AreaChart series={seriesPM}/>
         </div>
 
-        <div className='flex flex-row  w-full'>
+        {/* <div className='flex flex-row  w-full'>
           <div className='flex flex-col basis-1/2 grid-cols-3 justify-items-center w-full m-5 p-3 bg-secondary-dark rounded'>
             <p className='text-neutral-50 text-2xl'>{pollutant} Mean-Max-Min EWMA</p>
           <AreaChart series={pm10Data} categories={pm10Cat}/>
@@ -37,7 +37,7 @@ const Pollutant = () => {
             <p className='text-neutral-50 text-2xl'>{pollutant} Historical vs Predictions</p>
             <AreaChart series={seriesPM}/>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   )
