@@ -4,7 +4,7 @@ import { getDarkerGradient, getGradient, getBg, generateNumber } from '../../uti
 const PollutionLevels = ({title, contaminant}) => {
 
   return (
-    <div className={`flex flex-col h-52 p-1 rounded ${getBg(contaminant.bg)}`}>
+    <div className={`flex w-full flex-col h-52 p-1 rounded ${getBg(contaminant.bg)}`}>
       <div className='flex basis-1/3 flex-row justify-center items-center'>
         <p className='text-neutral-50 text-3xl'>{title}</p>
       </div>

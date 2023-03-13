@@ -59,7 +59,6 @@ export const getUgmGradient = (x) => {
 }
 
 export const getPpmGradient = (x) => {
-  console.log("hey")
     if (x < 0.09) {
       return 'from-green-600 to-green-700';
     } else if (x >= 0.09 && x < 0.5) {
