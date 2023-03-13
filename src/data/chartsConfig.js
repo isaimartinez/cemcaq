@@ -324,6 +324,7 @@ export const seriesHeatMap = [
     })
   }
 ]
+
 export const seriesPM = [{
   name: 'PM10',
   data: generateData(7, {min:10, max:100})
@@ -332,29 +333,21 @@ export const seriesPM = [{
   data: generateData(7, {min:10, max:100})
 }]
 
-export const seriesPpm = [
-  {
-    name: 'NO2',
-    data: generateData(7, {min:10, max:100})
-  },
-  {
-    name: 'CO',
-    data: generateData(7, {min:10, max:100})
-  },
-  {
-    name: 'O3',
-    data: generateData(7, {min:10, max:100})
-  },
-  {
-    name: 'SO2',
-    data: generateData(7, {min:10, max:100})
-  },
-]
-
-export const seriesRadar = [{
-  name: 'Hourly Median PM10 Conc',
-  data: generateData(12, {min:20, max: 90}),
+export const seriesHistVsPred = [{
+  name: 'Historical',
+  data: generateData(14, {min:5, max:50})
 }, {
-  name: 'Median of Highest Daily EWMA PM10 Conc per Month',
-  data: generateData(12, {min:1, max: 60}),
+  name: 'Predictions',
+  data: generateData(14, {min:5, max:50})
 }]
+
+
+// export const seriesHistVsPred = [{
+//   name: 'series1',
+//   data: [31, 40, 28, 51]
+// }, {
+//   name: 'series2',
+//   data: [11, 32, 45, 32]
+// }]
+
+

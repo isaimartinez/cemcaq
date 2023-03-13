@@ -7,10 +7,12 @@ export const usePollutant = () => {
   const [station, setStation] = useState(null)
   const [pm10Data, setPm10Data] = useState([])
   const [pm10Cat, setPm10Cat] = useState([])
+  const [histVsPredCat, setHistVsPredCat] = useState([])
   const {id, pollutant} = useParams()
 
   useEffect(() => {
     getStationData()
+    generateHistVsPredCat()
     console.log(id, pollutant)
   }, [])
 
@@ -47,7 +49,25 @@ export const usePollutant = () => {
     setPm10Data(data)
     setPm10Cat(categories)
   }
+
+  const generateHistVsPredCat = () => {
+    const currentDate = new Date();
+    const dates = [];
+
+    for (let i = 1; i <= 7; i++) {
+      const sixPmDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() - i, 18, 0, 0);
+      const strpm = new Date(sixPmDate.toString().split('GMT')[0]+' UTC').toISOString()
+      dates.push(strpm);
+      const sixAmDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() - i, 6, 0, 0);
+      const stram = new Date(sixAmDate.toString().split('GMT')[0]+' UTC').toISOString()
+      dates.push(stram);
+
+    }
+    setHistVsPredCat(dates.reverse())
+  }
+
+
   
 
-  return {id, station, pollutant, pm10Data, pm10Cat}
+  return {id, station, pollutant, pm10Data, pm10Cat, histVsPredCat}
 }

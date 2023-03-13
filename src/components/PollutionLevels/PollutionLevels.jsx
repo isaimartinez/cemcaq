@@ -11,15 +11,15 @@ const PollutionLevels = ({title, contaminant}) => {
       <div className='flex basis-2/3 flex-row justify-center items-center gap-5'>
         <div className={`flex flex-col basis-1/2 items-center justify-center p-2 rounded-sm shadow bg-gradient-to-r ${getDarkerGradient(contaminant.bg)}`}>
           <p className='text-white text-xl'>Min</p>
-          <p className='text-white font-bold text-3xl'>{generateNumber(10,0)}</p>
+          <p className='text-white font-bold text-3xl'>{generateNumber(4,0)}</p>
         </div>
         <div className={`flex flex-col basis-1/2 items-center justify-center p-2 rounded-sm shadow bg-gradient-to-r ${getDarkerGradient(contaminant.bg)}`}>
          <p className='text-white text-xl'>Mean (Prediction)</p>
-          <p className='text-white font-bold text-3xl'>{generateNumber(10,0)}</p>
+          <p className='text-white font-bold text-3xl'>{generateNumber(4,8)}</p>
         </div>
         <div className={`flex flex-col basis-1/2 items-center justify-center p-2 rounded-sm shadow bg-gradient-to-r ${getDarkerGradient(contaminant.bg)}`}>
           <p className='text-white text-xl'>Max</p>
-          <p className='text-white font-bold text-3xl'>{generateNumber(10,0)}</p>
+          <p className='text-white font-bold text-3xl'>{generateNumber(8,10)}</p>
         </div>
       </div>
     </div>
