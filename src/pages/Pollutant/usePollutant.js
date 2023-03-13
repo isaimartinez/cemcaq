@@ -7,10 +7,11 @@ export const usePollutant = () => {
   const [station, setStation] = useState(null)
   const [pm10Data, setPm10Data] = useState([])
   const [pm10Cat, setPm10Cat] = useState([])
-  const {id} = useParams()
+  const {id, pollutant} = useParams()
 
   useEffect(() => {
     getStationData()
+    console.log(id, pollutant)
   }, [])
 
   const getStationData = () => {
@@ -48,5 +49,5 @@ export const usePollutant = () => {
   }
   
 
-  return {id, station, pm10Data, pm10Cat}
+  return {id, station, pollutant, pm10Data, pm10Cat}
 }

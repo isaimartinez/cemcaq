@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import { Routes, Route} from 'react-router-dom'
-import {Home, Details} from './pages'
+import {Home, Details, Pollutant} from './pages'
 
 function App() {
   useEffect(() => {
@@ -15,6 +15,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />}/>
               <Route path="/estaciones/:id" element={<Details />}/>
+              <Route path="/estaciones/:id/:pollutant" element={<Pollutant />}/>
             </Routes>
           </div>
         </div>
