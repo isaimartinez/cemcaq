@@ -29,7 +29,7 @@ const ContaminantItem = ({contaminant, station}) => {
         {
           contaminant.prediction && (
             <div className={`flex flex-col basis-1/2 items-center justify-center p-2 rounded-sm shadow bg-gradient-to-r ${getDarkerGradient(contaminant.bg)}`}>
-              <p className='text-white text-xl'>Upcoming Prediction</p>
+              <p className='text-white text-xl'>Prediction</p>
               <p className='text-white font-bold text-3xl'>{contaminant.prediction}</p>
             </div>
           )

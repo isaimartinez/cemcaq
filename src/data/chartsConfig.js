@@ -337,7 +337,7 @@ export const seriesHistVsPred = [{
   name: 'Historical',
   data: generateData(14, {min:5, max:50})
 }, {
-  name: 'Predictions',
+  name: 'Prediction',
   data: generateData(14, {min:5, max:50})
 }]
 

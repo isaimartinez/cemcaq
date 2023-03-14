@@ -14,8 +14,8 @@ const StationItem = ({station}) => {
       onClick={goToDetails}
     >
       <div className='flex flex-col items-center justify-center p-1'>
-        <p className='text-2xl text-neutral-50'>{station.name}</p>
-        <p className='text-xl text-neutral-50'>{station.id}</p>
+        <p className='text-2xl text-neutral-50'>{station.id}</p>
+        <p className='text-xl md:text-base text-neutral-50'>{station.name}</p>
       </div>
       <div className='flex flex-col gap-2 mt-5'>
         {
