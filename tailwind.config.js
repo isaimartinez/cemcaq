@@ -12,9 +12,10 @@ module.exports = {
         14: '14px',
       },
       backgroundColor: {
-        'main-bg': '#16113A',
-        'secondary-dark': "#272953",
-        'main-dark-bg': '#20232A',
+        'main': '#FCFCFC',
+        'secondary': '#F0F0F0',
+        'main-dark': '#272953',
+        'secondary-dark': "#16113A",
         'secondary-dark-bg': '#33373E',
         'light-gray': '#F7F7F7',
         'half-transparent': 'rgba(0, 0, 0, 0.5)',

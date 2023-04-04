@@ -1,16 +1,15 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import { Routes, Route} from 'react-router-dom'
 import {Home, Details, Pollutant} from './pages'
+import { useSelector } from 'react-redux'
 
 function App() {
-  useEffect(() => {
-    // Load All Stations data
-  }, [])
-  
+  const {currentMode} = useSelector((state) => state.view)
+
   return (
-    <div>
-      <div className='flex relative dark:bg-main-dark-bg select-none'>
-        <div className='bg-main-bg dark:bg-main-dark-bg  w-full min-h-screen'>
+    <div className={currentMode === "Dark" ? 'dark' : ''}>
+      <div className='flex  relative  select-none'>
+        <div className='bg-secondary dark:bg-secondary-dark  w-full min-h-screen'>
           <div>
             <Routes>
               <Route path="/" element={<Home />}/>

@@ -48,25 +48,25 @@ export const getContaminantListGradient = (key, x) => {
 
 export const getUgmGradient = (x) => {
     if (x < 20) {
-      return 'from-green-600 to-green-700';
+      return 'from-green-500 to-green-600';
     } else if (x >= 20 && x < 25) {
-      return 'from-yellow-600 to-yellow-700';
+      return 'from-yellow-500 to-yellow-600';
     } else if (x >= 25 && x < 30) {
-      return 'from-orange-600 to-orange-700';
+      return 'from-orange-500 to-orange-600';
     } else {
-      return 'from-red-600 to-red-700'; 
+      return 'from-red-500 to-red-600'; 
     }
 }
 
 export const getPpmGradient = (x) => {
     if (x < 0.09) {
-      return 'from-green-600 to-green-700';
+      return 'from-green-500 to-green-600';
     } else if (x >= 0.09 && x < 0.5) {
-      return 'from-yellow-600 to-yellow-700';
+      return 'from-yellow-500 to-yellow-600';
     } else if (x >= 0.5 && x < 2) {
-      return 'from-orange-600 to-orange-700';
+      return 'from-orange-500 to-orange-600';
     } else {
-      return 'from-red-600 to-red-700'; 
+      return 'from-red-500 to-red-600'; 
     }
 }
 
