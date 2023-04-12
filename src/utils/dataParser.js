@@ -1,16 +1,26 @@
 import data from '../csv/output.json'
 
 export const getDataByStation = (station, pollutant) => {
-  console.log("entra", station, pollutant)
   let x = data.filter(item => 
       {
-        return Object.keys(item).indexOf(station) !== -1
+        let i = item[station]
+        let isPollulant = true
+        if(i) {
+          console.log("item",i[0])
+          let flag = checkKey(i[0], pollutant)
+          console.log(flag)
+          isPollulant = flag
+        }
+        return Object.keys(item).indexOf(station) !== -1 && isPollulant
       }
   
     )
-  console.log("sale")
-  if(x) return x[0][station]
+  if(x.length > 0) return x[0][station]
   else return []
+}
+const checkKey = (json, pollutant) => {
+  var key = Object.keys(json)[0]; // Get the key of the object
+  return key.includes(pollutant); // Check if the key includes 'PM25'
 }
 
 export const parseDateTime = (date) => {

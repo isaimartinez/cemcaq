@@ -82,7 +82,7 @@ export const stations = [
 
 export const contaminants = [
   {
-    id: "PM2.5",
+    id: "PM25",
     name: "Material Particulado",
     data: 5,
     prediction: 4,

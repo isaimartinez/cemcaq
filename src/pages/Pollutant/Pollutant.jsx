@@ -18,15 +18,30 @@ const Pollutant = () => {
           </div>
         </div>
 
-        <div className='flex bg-main dark:bg-main-dark flex-col m-5 p-3  rounded'>
-          <p className='text-zinc-800 dark:text-neutral-50 text-3xl'>{pollutant} Mean-Max-Min EWMA</p>
-          {/* <AreaChart series={pm10Data} categories={pm10Cat}/> */}
-          <AreaChart series={actualVsPred} categories={actualVsPredCat}/>
-        </div>
-        <div className='flex bg-main dark:bg-main-dark flex-col m-5 p-3  rounded'>
-          <p className='text-zinc-800 dark:text-neutral-50 text-3xl'>{pollutant} Historical vs Predictions (Last 7 days)</p>
-          <AreaChart series={seriesHistVsPred} categories={histVsPredCat}/>
-        </div>
+        {
+          actualVsPred.length > 0 ? (
+
+            <div className='flex bg-main dark:bg-main-dark flex-col m-5 p-3  rounded'>
+              <p className='text-zinc-800 dark:text-neutral-50 text-3xl'>{pollutant} Mean-Max-Min EWMA</p>
+              {/* <AreaChart series={pm10Data} categories={pm10Cat}/> */}
+              <AreaChart series={actualVsPred} categories={actualVsPredCat}/>
+            </div>
+
+          ) : (
+            <>
+
+            <div className='flex bg-main dark:bg-main-dark flex-col m-5 p-3  rounded'>
+              <p className='text-zinc-800 dark:text-neutral-50 text-3xl'>{pollutant} Mean-Max-Min EWMA</p>
+              <AreaChart series={pm10Data} categories={pm10Cat}/>
+              {/* <AreaChart series={actualVsPred} categories={actualVsPredCat}/> */}
+            </div>
+            <div className='flex bg-main dark:bg-main-dark flex-col m-5 p-3  rounded'>
+              <p className='text-zinc-800 dark:text-neutral-50 text-3xl'>{pollutant} Historical vs Predictions (Last 7 days)</p>
+              <AreaChart series={seriesHistVsPred} categories={histVsPredCat}/>
+            </div>
+            </>
+          )
+        }
 
         {/* <div className='flex flex-row  w-full'>
           <div className='flex flex-col basis-1/2 grid-cols-3 justify-items-center w-full m-5 p-3 bg-secondary-dark rounded'>

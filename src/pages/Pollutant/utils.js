@@ -16,6 +16,6 @@ export const parseActualVsPred = (station, pollutant) => {
   let category = dates.map((obj) => {
     return parseDateTime(obj)
   })
-
+  console.log("serie", serie)
   return [serie, category]
 }
