@@ -22,7 +22,7 @@ const Pollutant = () => {
           actualVsPred.length > 0 ? (
 
             <div className='flex bg-main dark:bg-main-dark flex-col m-5 p-3  rounded'>
-              <p className='text-zinc-800 dark:text-neutral-50 text-3xl'>{pollutant} Mean-Max-Min EWMA</p>
+              <p className='text-zinc-800 dark:text-neutral-50 text-3xl'>{pollutant} Mean-Max-Min Actual Vs Predict</p>
               {/* <AreaChart series={pm10Data} categories={pm10Cat}/> */}
               <AreaChart series={actualVsPred} categories={actualVsPredCat}/>
             </div>
