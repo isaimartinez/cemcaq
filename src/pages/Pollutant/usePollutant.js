@@ -21,7 +21,6 @@ export const usePollutant = () => {
 
   useEffect(() => {
     if(station) {
-      console.log(station.id)
       const [serie, cat] = parseActualVsPred(station.id, pollutant)
       setActualVsPred(serie)
       setActualVsPredCat(cat)
