@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from 'react-router-dom';
 import {stations} from '../../data'
 import capPM10 from '../../data/dataCap12H.json'
+import { parseActualVsPred } from "./utils";
 
 export const usePollutant = () => {
   const [station, setStation] = useState(null)
@@ -10,11 +11,23 @@ export const usePollutant = () => {
   const [histVsPredCat, setHistVsPredCat] = useState([])
   const {id, pollutant} = useParams()
 
+  const [actualVsPred, setActualVsPred] = useState([])
+  const [actualVsPredCat, setActualVsPredCat] = useState([])
+
   useEffect(() => {
     getStationData()
     generateHistVsPredCat()
-    console.log(id, pollutant)
   }, [])
+
+  useEffect(() => {
+    if(station) {
+      console.log(station.id)
+      const [serie, cat] = parseActualVsPred(station.id, pollutant)
+      setActualVsPred(serie)
+      setActualVsPredCat(cat)
+    }
+  }, [station])
+  
 
   const getStationData = () => {
     const x = stations.filter((item) => item.id == id)[0]
@@ -68,5 +81,5 @@ export const usePollutant = () => {
 
   
 
-  return {id, station, pollutant, pm10Data, pm10Cat, histVsPredCat}
+  return {id, station, pollutant, pm10Data, pm10Cat, histVsPredCat, actualVsPred, actualVsPredCat}
 }

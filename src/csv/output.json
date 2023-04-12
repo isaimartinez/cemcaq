@@ -1,0 +1,4602 @@
+[
+    {
+        "CAP": [
+            {
+                "Max_PM10_EWMA": [
+                    {
+                        "actual": 69.0,
+                        "predict": 90.22,
+                        "score": 26.1,
+                        "datetime": "2023-03-11 06:00:00"
+                    },
+                    {
+                        "actual": 106.0,
+                        "predict": 87.17,
+                        "score": 26.1,
+                        "datetime": "2023-03-11 18:00:00"
+                    },
+                    {
+                        "actual": 83.0,
+                        "predict": 107.88,
+                        "score": 26.1,
+                        "datetime": "2023-03-12 06:00:00"
+                    },
+                    {
+                        "actual": 138.0,
+                        "predict": 113.61,
+                        "score": 26.1,
+                        "datetime": "2023-03-12 18:00:00"
+                    },
+                    {
+                        "actual": 84.0,
+                        "predict": 98.1,
+                        "score": 26.1,
+                        "datetime": "2023-03-13 06:00:00"
+                    },
+                    {
+                        "actual": 62.0,
+                        "predict": 51.8,
+                        "score": 26.1,
+                        "datetime": "2023-03-13 18:00:00"
+                    },
+                    {
+                        "actual": 106.0,
+                        "predict": 85.91,
+                        "score": 26.1,
+                        "datetime": "2023-03-14 06:00:00"
+                    },
+                    {
+                        "actual": 83.0,
+                        "predict": 78.02,
+                        "score": 26.1,
+                        "datetime": "2023-03-14 18:00:00"
+                    },
+                    {
+                        "actual": 63.0,
+                        "predict": 67.88,
+                        "score": 26.1,
+                        "datetime": "2023-03-15 06:00:00"
+                    },
+                    {
+                        "actual": 51.0,
+                        "predict": 60.16,
+                        "score": 26.1,
+                        "datetime": "2023-03-15 18:00:00"
+                    },
+                    {
+                        "actual": 39.0,
+                        "predict": 72.64,
+                        "score": 26.1,
+                        "datetime": "2023-03-16 06:00:00"
+                    },
+                    {
+                        "actual": 43.0,
+                        "predict": 75.63,
+                        "score": 26.1,
+                        "datetime": "2023-03-16 18:00:00"
+                    },
+                    {
+                        "actual": 87.0,
+                        "predict": 77.65,
+                        "score": 26.1,
+                        "datetime": "2023-03-17 06:00:00"
+                    },
+                    {
+                        "actual": 118.0,
+                        "predict": 80.66,
+                        "score": 26.1,
+                        "datetime": "2023-03-17 18:00:00"
+                    },
+                    {
+                        "actual": 74.0,
+                        "predict": 73.87,
+                        "score": 26.1,
+                        "datetime": "2023-03-18 06:00:00"
+                    },
+                    {
+                        "actual": 47.0,
+                        "predict": 95.98,
+                        "score": 26.1,
+                        "datetime": "2023-03-18 18:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 75.19,
+                        "score": 26.1,
+                        "datetime": "2023-03-19 06:00:00"
+                    },
+                    {
+                        "actual": 53.0,
+                        "predict": 63.15,
+                        "score": 26.1,
+                        "datetime": "2023-03-19 18:00:00"
+                    },
+                    {
+                        "actual": 27.0,
+                        "predict": 73.43,
+                        "score": 26.1,
+                        "datetime": "2023-03-20 06:00:00"
+                    },
+                    {
+                        "actual": 58.0,
+                        "predict": 89.21,
+                        "score": 26.1,
+                        "datetime": "2023-03-20 18:00:00"
+                    },
+                    {
+                        "actual": 139.0,
+                        "predict": 91.66,
+                        "score": 26.1,
+                        "datetime": "2023-03-21 06:00:00"
+                    },
+                    {
+                        "actual": 93.0,
+                        "predict": 106.57,
+                        "score": 26.1,
+                        "datetime": "2023-03-21 18:00:00"
+                    },
+                    {
+                        "actual": 119.0,
+                        "predict": 160.95,
+                        "score": 26.1,
+                        "datetime": "2023-03-22 06:00:00"
+                    },
+                    {
+                        "actual": 94.0,
+                        "predict": 96.95,
+                        "score": 26.1,
+                        "datetime": "2023-03-22 18:00:00"
+                    },
+                    {
+                        "actual": 106.0,
+                        "predict": 89.39,
+                        "score": 26.1,
+                        "datetime": "2023-03-23 06:00:00"
+                    },
+                    {
+                        "actual": 94.0,
+                        "predict": 112.72,
+                        "score": 26.1,
+                        "datetime": "2023-03-23 18:00:00"
+                    },
+                    {
+                        "actual": 107.0,
+                        "predict": 96.52,
+                        "score": 26.1,
+                        "datetime": "2023-03-24 06:00:00"
+                    },
+                    {
+                        "actual": 110.0,
+                        "predict": 125.39,
+                        "score": 26.1,
+                        "datetime": "2023-03-24 18:00:00"
+                    },
+                    {
+                        "actual": 179.0,
+                        "predict": 101.95,
+                        "score": 26.1,
+                        "datetime": "2023-03-25 06:00:00"
+                    },
+                    {
+                        "actual": 99.0,
+                        "predict": 135.58,
+                        "score": 26.1,
+                        "datetime": "2023-03-25 18:00:00"
+                    },
+                    {
+                        "actual": 70.0,
+                        "predict": 87.6,
+                        "score": 26.1,
+                        "datetime": "2023-03-26 06:00:00"
+                    },
+                    {
+                        "actual": 86.0,
+                        "predict": 133.48,
+                        "score": 26.1,
+                        "datetime": "2023-03-26 18:00:00"
+                    },
+                    {
+                        "actual": 126.0,
+                        "predict": 77.83,
+                        "score": 26.1,
+                        "datetime": "2023-03-27 06:00:00"
+                    },
+                    {
+                        "actual": 128.0,
+                        "predict": 111.53,
+                        "score": 26.1,
+                        "datetime": "2023-03-27 18:00:00"
+                    },
+                    {
+                        "actual": 124.0,
+                        "predict": 81.67,
+                        "score": 26.1,
+                        "datetime": "2023-03-28 06:00:00"
+                    },
+                    {
+                        "actual": 113.0,
+                        "predict": 94.99,
+                        "score": 26.1,
+                        "datetime": "2023-03-28 18:00:00"
+                    },
+                    {
+                        "actual": 66.0,
+                        "predict": 93.83,
+                        "score": 26.1,
+                        "datetime": "2023-03-29 06:00:00"
+                    },
+                    {
+                        "actual": 84.0,
+                        "predict": 72.06,
+                        "score": 26.1,
+                        "datetime": "2023-03-29 18:00:00"
+                    },
+                    {
+                        "actual": 101.0,
+                        "predict": 91.88,
+                        "score": 26.1,
+                        "datetime": "2023-03-30 06:00:00"
+                    },
+                    {
+                        "actual": 130.0,
+                        "predict": 84.0,
+                        "score": 26.1,
+                        "datetime": "2023-03-30 18:00:00"
+                    },
+                    {
+                        "actual": 99.0,
+                        "predict": 102.12,
+                        "score": 26.1,
+                        "datetime": "2023-03-31 06:00:00"
+                    },
+                    {
+                        "actual": 94.0,
+                        "predict": 120.34,
+                        "score": 26.1,
+                        "datetime": "2023-03-31 18:00:00"
+                    },
+                    {
+                        "actual": 70.0,
+                        "predict": 80.64,
+                        "score": 26.1,
+                        "datetime": "2023-04-01 06:00:00"
+                    },
+                    {
+                        "actual": 111.0,
+                        "predict": 78.0,
+                        "score": 26.1,
+                        "datetime": "2023-04-01 18:00:00"
+                    },
+                    {
+                        "actual": 49.0,
+                        "predict": 102.72,
+                        "score": 26.1,
+                        "datetime": "2023-04-02 06:00:00"
+                    },
+                    {
+                        "actual": 82.0,
+                        "predict": 78.87,
+                        "score": 26.1,
+                        "datetime": "2023-04-02 18:00:00"
+                    },
+                    {
+                        "actual": 96.0,
+                        "predict": 94.07,
+                        "score": 26.1,
+                        "datetime": "2023-04-03 06:00:00"
+                    },
+                    {
+                        "actual": 124.0,
+                        "predict": 103.28,
+                        "score": 26.1,
+                        "datetime": "2023-04-03 18:00:00"
+                    },
+                    {
+                        "actual": 97.0,
+                        "predict": 75.66,
+                        "score": 26.1,
+                        "datetime": "2023-04-04 06:00:00"
+                    },
+                    {
+                        "actual": 114.0,
+                        "predict": 87.86,
+                        "score": 26.1,
+                        "datetime": "2023-04-04 18:00:00"
+                    },
+                    {
+                        "actual": 115.0,
+                        "predict": 85.07,
+                        "score": 26.1,
+                        "datetime": "2023-04-05 06:00:00"
+                    },
+                    {
+                        "actual": 187.0,
+                        "predict": 104.93,
+                        "score": 26.1,
+                        "datetime": "2023-04-05 18:00:00"
+                    },
+                    {
+                        "actual": 84.0,
+                        "predict": 76.03,
+                        "score": 26.1,
+                        "datetime": "2023-04-06 06:00:00"
+                    },
+                    {
+                        "actual": 134.0,
+                        "predict": 51.35,
+                        "score": 26.1,
+                        "datetime": "2023-04-06 18:00:00"
+                    },
+                    {
+                        "actual": 62.0,
+                        "predict": 66.98,
+                        "score": 26.1,
+                        "datetime": "2023-04-07 06:00:00"
+                    },
+                    {
+                        "actual": 79.0,
+                        "predict": 57.43,
+                        "score": 26.1,
+                        "datetime": "2023-04-07 18:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 80.52,
+                        "score": 26.1,
+                        "datetime": "2023-04-08 06:00:00"
+                    },
+                    {
+                        "actual": 60.0,
+                        "predict": 73.51,
+                        "score": 26.1,
+                        "datetime": "2023-04-08 18:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 75.47,
+                        "score": 26.1,
+                        "datetime": "2023-04-09 06:00:00"
+                    },
+                    {
+                        "actual": 58.0,
+                        "predict": 69.44,
+                        "score": 26.1,
+                        "datetime": "2023-04-09 18:00:00"
+                    },
+                    {
+                        "actual": 43.0,
+                        "predict": 68.75,
+                        "score": 26.1,
+                        "datetime": "2023-04-10 06:00:00"
+                    },
+                    {
+                        "actual": 51.0,
+                        "predict": 58.92,
+                        "score": 26.1,
+                        "datetime": "2023-04-10 18:00:00"
+                    },
+                    {
+                        "actual": 30.0,
+                        "predict": 69.22,
+                        "score": 26.1,
+                        "datetime": "2023-04-11 06:00:00"
+                    }
+                ]
+            },
+            {
+                "Min_PM10_EWMA": [
+                    {
+                        "actual": 47.0,
+                        "predict": 30.58,
+                        "score": 8.35,
+                        "datetime": "2023-03-11 06:00:00"
+                    },
+                    {
+                        "actual": 51.0,
+                        "predict": 34.76,
+                        "score": 8.35,
+                        "datetime": "2023-03-11 18:00:00"
+                    },
+                    {
+                        "actual": 47.0,
+                        "predict": 41.74,
+                        "score": 8.35,
+                        "datetime": "2023-03-12 06:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 38.06,
+                        "score": 8.35,
+                        "datetime": "2023-03-12 18:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 43.2,
+                        "score": 8.35,
+                        "datetime": "2023-03-13 06:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 20.13,
+                        "score": 8.35,
+                        "datetime": "2023-03-13 18:00:00"
+                    },
+                    {
+                        "actual": 42.0,
+                        "predict": 28.11,
+                        "score": 8.35,
+                        "datetime": "2023-03-14 06:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 20.95,
+                        "score": 8.35,
+                        "datetime": "2023-03-14 18:00:00"
+                    },
+                    {
+                        "actual": 17.0,
+                        "predict": 24.8,
+                        "score": 8.35,
+                        "datetime": "2023-03-15 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 17.27,
+                        "score": 8.35,
+                        "datetime": "2023-03-15 18:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 22.23,
+                        "score": 8.35,
+                        "datetime": "2023-03-16 06:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 25.54,
+                        "score": 8.35,
+                        "datetime": "2023-03-16 18:00:00"
+                    },
+                    {
+                        "actual": 31.0,
+                        "predict": 25.74,
+                        "score": 8.35,
+                        "datetime": "2023-03-17 06:00:00"
+                    },
+                    {
+                        "actual": 34.0,
+                        "predict": 23.04,
+                        "score": 8.35,
+                        "datetime": "2023-03-17 18:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 25.49,
+                        "score": 8.35,
+                        "datetime": "2023-03-18 06:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 19.96,
+                        "score": 8.35,
+                        "datetime": "2023-03-18 18:00:00"
+                    },
+                    {
+                        "actual": 17.0,
+                        "predict": 20.49,
+                        "score": 8.35,
+                        "datetime": "2023-03-19 06:00:00"
+                    },
+                    {
+                        "actual": 6.0,
+                        "predict": 15.19,
+                        "score": 8.35,
+                        "datetime": "2023-03-19 18:00:00"
+                    },
+                    {
+                        "actual": 8.0,
+                        "predict": 21.67,
+                        "score": 8.35,
+                        "datetime": "2023-03-20 06:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 20.27,
+                        "score": 8.35,
+                        "datetime": "2023-03-20 18:00:00"
+                    },
+                    {
+                        "actual": 60.0,
+                        "predict": 23.3,
+                        "score": 8.35,
+                        "datetime": "2023-03-21 06:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 34.96,
+                        "score": 8.35,
+                        "datetime": "2023-03-21 18:00:00"
+                    },
+                    {
+                        "actual": 37.0,
+                        "predict": 62.57,
+                        "score": 8.35,
+                        "datetime": "2023-03-22 06:00:00"
+                    },
+                    {
+                        "actual": 40.0,
+                        "predict": 24.95,
+                        "score": 8.35,
+                        "datetime": "2023-03-22 18:00:00"
+                    },
+                    {
+                        "actual": 38.0,
+                        "predict": 35.33,
+                        "score": 8.35,
+                        "datetime": "2023-03-23 06:00:00"
+                    },
+                    {
+                        "actual": 42.0,
+                        "predict": 41.86,
+                        "score": 8.35,
+                        "datetime": "2023-03-23 18:00:00"
+                    },
+                    {
+                        "actual": 44.0,
+                        "predict": 37.61,
+                        "score": 8.35,
+                        "datetime": "2023-03-24 06:00:00"
+                    },
+                    {
+                        "actual": 44.0,
+                        "predict": 43.94,
+                        "score": 8.35,
+                        "datetime": "2023-03-24 18:00:00"
+                    },
+                    {
+                        "actual": 44.0,
+                        "predict": 44.71,
+                        "score": 8.35,
+                        "datetime": "2023-03-25 06:00:00"
+                    },
+                    {
+                        "actual": 41.0,
+                        "predict": 43.27,
+                        "score": 8.35,
+                        "datetime": "2023-03-25 18:00:00"
+                    },
+                    {
+                        "actual": 39.0,
+                        "predict": 39.2,
+                        "score": 8.35,
+                        "datetime": "2023-03-26 06:00:00"
+                    },
+                    {
+                        "actual": 37.0,
+                        "predict": 37.8,
+                        "score": 8.35,
+                        "datetime": "2023-03-26 18:00:00"
+                    },
+                    {
+                        "actual": 38.0,
+                        "predict": 29.73,
+                        "score": 8.35,
+                        "datetime": "2023-03-27 06:00:00"
+                    },
+                    {
+                        "actual": 37.0,
+                        "predict": 37.29,
+                        "score": 8.35,
+                        "datetime": "2023-03-27 18:00:00"
+                    },
+                    {
+                        "actual": 56.0,
+                        "predict": 38.36,
+                        "score": 8.35,
+                        "datetime": "2023-03-28 06:00:00"
+                    },
+                    {
+                        "actual": 37.0,
+                        "predict": 30.29,
+                        "score": 8.35,
+                        "datetime": "2023-03-28 18:00:00"
+                    },
+                    {
+                        "actual": 40.0,
+                        "predict": 43.1,
+                        "score": 8.35,
+                        "datetime": "2023-03-29 06:00:00"
+                    },
+                    {
+                        "actual": 33.0,
+                        "predict": 29.34,
+                        "score": 8.35,
+                        "datetime": "2023-03-29 18:00:00"
+                    },
+                    {
+                        "actual": 34.0,
+                        "predict": 32.94,
+                        "score": 8.35,
+                        "datetime": "2023-03-30 06:00:00"
+                    },
+                    {
+                        "actual": 57.0,
+                        "predict": 31.56,
+                        "score": 8.35,
+                        "datetime": "2023-03-30 18:00:00"
+                    },
+                    {
+                        "actual": 37.0,
+                        "predict": 40.9,
+                        "score": 8.35,
+                        "datetime": "2023-03-31 06:00:00"
+                    },
+                    {
+                        "actual": 35.0,
+                        "predict": 49.03,
+                        "score": 8.35,
+                        "datetime": "2023-03-31 18:00:00"
+                    },
+                    {
+                        "actual": 43.0,
+                        "predict": 35.39,
+                        "score": 8.35,
+                        "datetime": "2023-04-01 06:00:00"
+                    },
+                    {
+                        "actual": 38.0,
+                        "predict": 23.7,
+                        "score": 8.35,
+                        "datetime": "2023-04-01 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 37.6,
+                        "score": 8.35,
+                        "datetime": "2023-04-02 06:00:00"
+                    },
+                    {
+                        "actual": 40.0,
+                        "predict": 37.05,
+                        "score": 8.35,
+                        "datetime": "2023-04-02 18:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 31.64,
+                        "score": 8.35,
+                        "datetime": "2023-04-03 06:00:00"
+                    },
+                    {
+                        "actual": 38.0,
+                        "predict": 37.03,
+                        "score": 8.35,
+                        "datetime": "2023-04-03 18:00:00"
+                    },
+                    {
+                        "actual": 54.0,
+                        "predict": 26.87,
+                        "score": 8.35,
+                        "datetime": "2023-04-04 06:00:00"
+                    },
+                    {
+                        "actual": 61.0,
+                        "predict": 32.69,
+                        "score": 8.35,
+                        "datetime": "2023-04-04 18:00:00"
+                    },
+                    {
+                        "actual": 42.0,
+                        "predict": 41.8,
+                        "score": 8.35,
+                        "datetime": "2023-04-05 06:00:00"
+                    },
+                    {
+                        "actual": 43.0,
+                        "predict": 39.65,
+                        "score": 8.35,
+                        "datetime": "2023-04-05 18:00:00"
+                    },
+                    {
+                        "actual": 47.0,
+                        "predict": 33.43,
+                        "score": 8.35,
+                        "datetime": "2023-04-06 06:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 25.32,
+                        "score": 8.35,
+                        "datetime": "2023-04-06 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 30.72,
+                        "score": 8.35,
+                        "datetime": "2023-04-07 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 17.56,
+                        "score": 8.35,
+                        "datetime": "2023-04-07 18:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 25.63,
+                        "score": 8.35,
+                        "datetime": "2023-04-08 06:00:00"
+                    },
+                    {
+                        "actual": 20.0,
+                        "predict": 24.07,
+                        "score": 8.35,
+                        "datetime": "2023-04-08 18:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 19.76,
+                        "score": 8.35,
+                        "datetime": "2023-04-09 06:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 18.8,
+                        "score": 8.35,
+                        "datetime": "2023-04-09 18:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 22.15,
+                        "score": 8.35,
+                        "datetime": "2023-04-10 06:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 16.54,
+                        "score": 8.35,
+                        "datetime": "2023-04-10 18:00:00"
+                    },
+                    {
+                        "actual": 20.0,
+                        "predict": 22.79,
+                        "score": 8.35,
+                        "datetime": "2023-04-11 06:00:00"
+                    }
+                ]
+            },
+            {
+                "Mean_PM10_EWMA": [
+                    {
+                        "actual": 57.0,
+                        "predict": 52.14,
+                        "score": 13.68,
+                        "datetime": "2023-03-11 06:00:00"
+                    },
+                    {
+                        "actual": 76.0,
+                        "predict": 55.83,
+                        "score": 13.68,
+                        "datetime": "2023-03-11 18:00:00"
+                    },
+                    {
+                        "actual": 58.0,
+                        "predict": 63.34,
+                        "score": 13.68,
+                        "datetime": "2023-03-12 06:00:00"
+                    },
+                    {
+                        "actual": 58.0,
+                        "predict": 79.28,
+                        "score": 13.68,
+                        "datetime": "2023-03-12 18:00:00"
+                    },
+                    {
+                        "actual": 50.0,
+                        "predict": 63.92,
+                        "score": 13.68,
+                        "datetime": "2023-03-13 06:00:00"
+                    },
+                    {
+                        "actual": 44.0,
+                        "predict": 41.09,
+                        "score": 13.68,
+                        "datetime": "2023-03-13 18:00:00"
+                    },
+                    {
+                        "actual": 65.0,
+                        "predict": 57.08,
+                        "score": 13.68,
+                        "datetime": "2023-03-14 06:00:00"
+                    },
+                    {
+                        "actual": 39.0,
+                        "predict": 51.49,
+                        "score": 13.68,
+                        "datetime": "2023-03-14 18:00:00"
+                    },
+                    {
+                        "actual": 38.0,
+                        "predict": 41.16,
+                        "score": 13.68,
+                        "datetime": "2023-03-15 06:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 38.57,
+                        "score": 13.68,
+                        "datetime": "2023-03-15 18:00:00"
+                    },
+                    {
+                        "actual": 31.0,
+                        "predict": 54.29,
+                        "score": 13.68,
+                        "datetime": "2023-03-16 06:00:00"
+                    },
+                    {
+                        "actual": 36.0,
+                        "predict": 45.57,
+                        "score": 13.68,
+                        "datetime": "2023-03-16 18:00:00"
+                    },
+                    {
+                        "actual": 48.0,
+                        "predict": 50.26,
+                        "score": 13.68,
+                        "datetime": "2023-03-17 06:00:00"
+                    },
+                    {
+                        "actual": 79.0,
+                        "predict": 37.17,
+                        "score": 13.68,
+                        "datetime": "2023-03-17 18:00:00"
+                    },
+                    {
+                        "actual": 50.0,
+                        "predict": 44.88,
+                        "score": 13.68,
+                        "datetime": "2023-03-18 06:00:00"
+                    },
+                    {
+                        "actual": 31.0,
+                        "predict": 48.72,
+                        "score": 13.68,
+                        "datetime": "2023-03-18 18:00:00"
+                    },
+                    {
+                        "actual": 20.0,
+                        "predict": 49.16,
+                        "score": 13.68,
+                        "datetime": "2023-03-19 06:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 40.81,
+                        "score": 13.68,
+                        "datetime": "2023-03-19 18:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 46.44,
+                        "score": 13.68,
+                        "datetime": "2023-03-20 06:00:00"
+                    },
+                    {
+                        "actual": 45.0,
+                        "predict": 61.42,
+                        "score": 13.68,
+                        "datetime": "2023-03-20 18:00:00"
+                    },
+                    {
+                        "actual": 106.0,
+                        "predict": 47.14,
+                        "score": 13.68,
+                        "datetime": "2023-03-21 06:00:00"
+                    },
+                    {
+                        "actual": 62.0,
+                        "predict": 80.45,
+                        "score": 13.68,
+                        "datetime": "2023-03-21 18:00:00"
+                    },
+                    {
+                        "actual": 63.0,
+                        "predict": 75.66,
+                        "score": 13.68,
+                        "datetime": "2023-03-22 06:00:00"
+                    },
+                    {
+                        "actual": 57.0,
+                        "predict": 54.4,
+                        "score": 13.68,
+                        "datetime": "2023-03-22 18:00:00"
+                    },
+                    {
+                        "actual": 66.0,
+                        "predict": 63.37,
+                        "score": 13.68,
+                        "datetime": "2023-03-23 06:00:00"
+                    },
+                    {
+                        "actual": 67.0,
+                        "predict": 68.51,
+                        "score": 13.68,
+                        "datetime": "2023-03-23 18:00:00"
+                    },
+                    {
+                        "actual": 69.0,
+                        "predict": 73.97,
+                        "score": 13.68,
+                        "datetime": "2023-03-24 06:00:00"
+                    },
+                    {
+                        "actual": 80.0,
+                        "predict": 65.97,
+                        "score": 13.68,
+                        "datetime": "2023-03-24 18:00:00"
+                    },
+                    {
+                        "actual": 88.0,
+                        "predict": 70.09,
+                        "score": 13.68,
+                        "datetime": "2023-03-25 06:00:00"
+                    },
+                    {
+                        "actual": 69.0,
+                        "predict": 75.77,
+                        "score": 13.68,
+                        "datetime": "2023-03-25 18:00:00"
+                    },
+                    {
+                        "actual": 52.0,
+                        "predict": 78.76,
+                        "score": 13.68,
+                        "datetime": "2023-03-26 06:00:00"
+                    },
+                    {
+                        "actual": 59.0,
+                        "predict": 75.56,
+                        "score": 13.68,
+                        "datetime": "2023-03-26 18:00:00"
+                    },
+                    {
+                        "actual": 75.0,
+                        "predict": 47.75,
+                        "score": 13.68,
+                        "datetime": "2023-03-27 06:00:00"
+                    },
+                    {
+                        "actual": 100.0,
+                        "predict": 71.17,
+                        "score": 13.68,
+                        "datetime": "2023-03-27 18:00:00"
+                    },
+                    {
+                        "actual": 84.0,
+                        "predict": 55.02,
+                        "score": 13.68,
+                        "datetime": "2023-03-28 06:00:00"
+                    },
+                    {
+                        "actual": 71.0,
+                        "predict": 55.54,
+                        "score": 13.68,
+                        "datetime": "2023-03-28 18:00:00"
+                    },
+                    {
+                        "actual": 55.0,
+                        "predict": 45.14,
+                        "score": 13.68,
+                        "datetime": "2023-03-29 06:00:00"
+                    },
+                    {
+                        "actual": 52.0,
+                        "predict": 52.96,
+                        "score": 13.68,
+                        "datetime": "2023-03-29 18:00:00"
+                    },
+                    {
+                        "actual": 63.0,
+                        "predict": 60.51,
+                        "score": 13.68,
+                        "datetime": "2023-03-30 06:00:00"
+                    },
+                    {
+                        "actual": 99.0,
+                        "predict": 55.13,
+                        "score": 13.68,
+                        "datetime": "2023-03-30 18:00:00"
+                    },
+                    {
+                        "actual": 65.0,
+                        "predict": 66.11,
+                        "score": 13.68,
+                        "datetime": "2023-03-31 06:00:00"
+                    },
+                    {
+                        "actual": 62.0,
+                        "predict": 60.9,
+                        "score": 13.68,
+                        "datetime": "2023-03-31 18:00:00"
+                    },
+                    {
+                        "actual": 57.0,
+                        "predict": 62.43,
+                        "score": 13.68,
+                        "datetime": "2023-04-01 06:00:00"
+                    },
+                    {
+                        "actual": 72.0,
+                        "predict": 47.11,
+                        "score": 13.68,
+                        "datetime": "2023-04-01 18:00:00"
+                    },
+                    {
+                        "actual": 41.0,
+                        "predict": 60.67,
+                        "score": 13.68,
+                        "datetime": "2023-04-02 06:00:00"
+                    },
+                    {
+                        "actual": 61.0,
+                        "predict": 59.95,
+                        "score": 13.68,
+                        "datetime": "2023-04-02 18:00:00"
+                    },
+                    {
+                        "actual": 61.0,
+                        "predict": 62.74,
+                        "score": 13.68,
+                        "datetime": "2023-04-03 06:00:00"
+                    },
+                    {
+                        "actual": 73.0,
+                        "predict": 62.42,
+                        "score": 13.68,
+                        "datetime": "2023-04-03 18:00:00"
+                    },
+                    {
+                        "actual": 74.0,
+                        "predict": 54.27,
+                        "score": 13.68,
+                        "datetime": "2023-04-04 06:00:00"
+                    },
+                    {
+                        "actual": 88.0,
+                        "predict": 79.51,
+                        "score": 13.68,
+                        "datetime": "2023-04-04 18:00:00"
+                    },
+                    {
+                        "actual": 76.0,
+                        "predict": 73.25,
+                        "score": 13.68,
+                        "datetime": "2023-04-05 06:00:00"
+                    },
+                    {
+                        "actual": 82.0,
+                        "predict": 53.89,
+                        "score": 13.68,
+                        "datetime": "2023-04-05 18:00:00"
+                    },
+                    {
+                        "actual": 57.0,
+                        "predict": 49.68,
+                        "score": 13.68,
+                        "datetime": "2023-04-06 06:00:00"
+                    },
+                    {
+                        "actual": 62.0,
+                        "predict": 35.17,
+                        "score": 13.68,
+                        "datetime": "2023-04-06 18:00:00"
+                    },
+                    {
+                        "actual": 33.0,
+                        "predict": 37.49,
+                        "score": 13.68,
+                        "datetime": "2023-04-07 06:00:00"
+                    },
+                    {
+                        "actual": 47.0,
+                        "predict": 38.9,
+                        "score": 13.68,
+                        "datetime": "2023-04-07 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 50.88,
+                        "score": 13.68,
+                        "datetime": "2023-04-08 06:00:00"
+                    },
+                    {
+                        "actual": 42.0,
+                        "predict": 53.54,
+                        "score": 13.68,
+                        "datetime": "2023-04-08 18:00:00"
+                    },
+                    {
+                        "actual": 27.0,
+                        "predict": 41.52,
+                        "score": 13.68,
+                        "datetime": "2023-04-09 06:00:00"
+                    },
+                    {
+                        "actual": 36.0,
+                        "predict": 31.8,
+                        "score": 13.68,
+                        "datetime": "2023-04-09 18:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 32.63,
+                        "score": 13.68,
+                        "datetime": "2023-04-10 06:00:00"
+                    },
+                    {
+                        "actual": 34.0,
+                        "predict": 34.65,
+                        "score": 13.68,
+                        "datetime": "2023-04-10 18:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 33.53,
+                        "score": 13.68,
+                        "datetime": "2023-04-11 06:00:00"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "COR": [
+            {
+                "Max_PM25_EWMA": [
+                    {
+                        "actual": 40.0,
+                        "predict": 32.15,
+                        "score": 9.65,
+                        "datetime": "2023-03-11 06:00:00"
+                    },
+                    {
+                        "actual": 41.0,
+                        "predict": 30.64,
+                        "score": 9.65,
+                        "datetime": "2023-03-11 18:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 35.2,
+                        "score": 9.65,
+                        "datetime": "2023-03-12 06:00:00"
+                    },
+                    {
+                        "actual": 31.0,
+                        "predict": 33.49,
+                        "score": 9.65,
+                        "datetime": "2023-03-12 18:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 31.59,
+                        "score": 9.65,
+                        "datetime": "2023-03-13 06:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 23.21,
+                        "score": 9.65,
+                        "datetime": "2023-03-13 18:00:00"
+                    },
+                    {
+                        "actual": 31.0,
+                        "predict": 22.89,
+                        "score": 9.65,
+                        "datetime": "2023-03-14 06:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 18.43,
+                        "score": 9.65,
+                        "datetime": "2023-03-14 18:00:00"
+                    },
+                    {
+                        "actual": 111.0,
+                        "predict": 18.95,
+                        "score": 9.65,
+                        "datetime": "2023-03-15 06:00:00"
+                    },
+                    {
+                        "actual": 96.0,
+                        "predict": 21.32,
+                        "score": 9.65,
+                        "datetime": "2023-03-15 18:00:00"
+                    },
+                    {
+                        "actual": 20.0,
+                        "predict": 37.66,
+                        "score": 9.65,
+                        "datetime": "2023-03-16 06:00:00"
+                    },
+                    {
+                        "actual": 12.0,
+                        "predict": 36.73,
+                        "score": 9.65,
+                        "datetime": "2023-03-16 18:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 20.43,
+                        "score": 9.65,
+                        "datetime": "2023-03-17 06:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 16.54,
+                        "score": 9.65,
+                        "datetime": "2023-03-17 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 20.58,
+                        "score": 9.65,
+                        "datetime": "2023-03-18 06:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 15.62,
+                        "score": 9.65,
+                        "datetime": "2023-03-18 18:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 19.57,
+                        "score": 9.65,
+                        "datetime": "2023-03-19 06:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 15.05,
+                        "score": 9.65,
+                        "datetime": "2023-03-19 18:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 19.61,
+                        "score": 9.65,
+                        "datetime": "2023-03-20 06:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 22.19,
+                        "score": 9.65,
+                        "datetime": "2023-03-20 18:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 22.94,
+                        "score": 9.65,
+                        "datetime": "2023-03-21 06:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 31.27,
+                        "score": 9.65,
+                        "datetime": "2023-03-21 18:00:00"
+                    },
+                    {
+                        "actual": 43.0,
+                        "predict": 33.48,
+                        "score": 9.65,
+                        "datetime": "2023-03-22 06:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 27.3,
+                        "score": 9.65,
+                        "datetime": "2023-03-22 18:00:00"
+                    },
+                    {
+                        "actual": 42.0,
+                        "predict": 34.66,
+                        "score": 9.65,
+                        "datetime": "2023-03-23 06:00:00"
+                    },
+                    {
+                        "actual": 34.0,
+                        "predict": 30.48,
+                        "score": 9.65,
+                        "datetime": "2023-03-23 18:00:00"
+                    },
+                    {
+                        "actual": 37.0,
+                        "predict": 34.79,
+                        "score": 9.65,
+                        "datetime": "2023-03-24 06:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 36.36,
+                        "score": 9.65,
+                        "datetime": "2023-03-24 18:00:00"
+                    },
+                    {
+                        "actual": 30.0,
+                        "predict": 35.79,
+                        "score": 9.65,
+                        "datetime": "2023-03-25 06:00:00"
+                    },
+                    {
+                        "actual": 38.0,
+                        "predict": 34.41,
+                        "score": 9.65,
+                        "datetime": "2023-03-25 18:00:00"
+                    },
+                    {
+                        "actual": 31.0,
+                        "predict": 33.54,
+                        "score": 9.65,
+                        "datetime": "2023-03-26 06:00:00"
+                    },
+                    {
+                        "actual": 30.0,
+                        "predict": 35.54,
+                        "score": 9.65,
+                        "datetime": "2023-03-26 18:00:00"
+                    },
+                    {
+                        "actual": 53.0,
+                        "predict": 33.48,
+                        "score": 9.65,
+                        "datetime": "2023-03-27 06:00:00"
+                    },
+                    {
+                        "actual": 33.0,
+                        "predict": 35.41,
+                        "score": 9.65,
+                        "datetime": "2023-03-27 18:00:00"
+                    },
+                    {
+                        "actual": 45.0,
+                        "predict": 36.07,
+                        "score": 9.65,
+                        "datetime": "2023-03-28 06:00:00"
+                    },
+                    {
+                        "actual": 45.0,
+                        "predict": 23.62,
+                        "score": 9.65,
+                        "datetime": "2023-03-28 18:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 35.86,
+                        "score": 9.65,
+                        "datetime": "2023-03-29 06:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 32.35,
+                        "score": 9.65,
+                        "datetime": "2023-03-29 18:00:00"
+                    },
+                    {
+                        "actual": 36.0,
+                        "predict": 33.04,
+                        "score": 9.65,
+                        "datetime": "2023-03-30 06:00:00"
+                    },
+                    {
+                        "actual": 44.0,
+                        "predict": 30.41,
+                        "score": 9.65,
+                        "datetime": "2023-03-30 18:00:00"
+                    },
+                    {
+                        "actual": 36.0,
+                        "predict": 37.08,
+                        "score": 9.65,
+                        "datetime": "2023-03-31 06:00:00"
+                    },
+                    {
+                        "actual": 37.0,
+                        "predict": 36.58,
+                        "score": 9.65,
+                        "datetime": "2023-03-31 18:00:00"
+                    },
+                    {
+                        "actual": 34.0,
+                        "predict": 33.26,
+                        "score": 9.65,
+                        "datetime": "2023-04-01 06:00:00"
+                    },
+                    {
+                        "actual": 41.0,
+                        "predict": 25.74,
+                        "score": 9.65,
+                        "datetime": "2023-04-01 18:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 34.96,
+                        "score": 9.65,
+                        "datetime": "2023-04-02 06:00:00"
+                    },
+                    {
+                        "actual": 41.0,
+                        "predict": 35.29,
+                        "score": 9.65,
+                        "datetime": "2023-04-02 18:00:00"
+                    },
+                    {
+                        "actual": 50.0,
+                        "predict": 34.86,
+                        "score": 9.65,
+                        "datetime": "2023-04-03 06:00:00"
+                    },
+                    {
+                        "actual": 36.0,
+                        "predict": 35.72,
+                        "score": 9.65,
+                        "datetime": "2023-04-03 18:00:00"
+                    },
+                    {
+                        "actual": 38.0,
+                        "predict": 33.64,
+                        "score": 9.65,
+                        "datetime": "2023-04-04 06:00:00"
+                    },
+                    {
+                        "actual": 40.0,
+                        "predict": 34.3,
+                        "score": 9.65,
+                        "datetime": "2023-04-04 18:00:00"
+                    },
+                    {
+                        "actual": 54.0,
+                        "predict": 35.33,
+                        "score": 9.65,
+                        "datetime": "2023-04-05 06:00:00"
+                    },
+                    {
+                        "actual": 40.0,
+                        "predict": 32.27,
+                        "score": 9.65,
+                        "datetime": "2023-04-05 18:00:00"
+                    },
+                    {
+                        "actual": 45.0,
+                        "predict": 36.87,
+                        "score": 9.65,
+                        "datetime": "2023-04-06 06:00:00"
+                    },
+                    {
+                        "actual": 48.0,
+                        "predict": 32.08,
+                        "score": 9.65,
+                        "datetime": "2023-04-06 18:00:00"
+                    },
+                    {
+                        "actual": 12.0,
+                        "predict": 33.85,
+                        "score": 9.65,
+                        "datetime": "2023-04-07 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 26.83,
+                        "score": 9.65,
+                        "datetime": "2023-04-07 18:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 20.87,
+                        "score": 9.65,
+                        "datetime": "2023-04-08 06:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 26.54,
+                        "score": 9.65,
+                        "datetime": "2023-04-08 18:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 20.78,
+                        "score": 9.65,
+                        "datetime": "2023-04-09 06:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 14.19,
+                        "score": 9.65,
+                        "datetime": "2023-04-09 18:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 15.31,
+                        "score": 9.65,
+                        "datetime": "2023-04-10 06:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 14.83,
+                        "score": 9.65,
+                        "datetime": "2023-04-10 18:00:00"
+                    },
+                    {
+                        "actual": 7.0,
+                        "predict": 17.33,
+                        "score": 9.65,
+                        "datetime": "2023-04-11 06:00:00"
+                    }
+                ]
+            },
+            {
+                "Min_PM25_EWMA": [
+                    {
+                        "actual": 16.0,
+                        "predict": 13.66,
+                        "score": 4.72,
+                        "datetime": "2023-03-11 06:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 10.06,
+                        "score": 4.72,
+                        "datetime": "2023-03-11 18:00:00"
+                    },
+                    {
+                        "actual": 6.0,
+                        "predict": 13.18,
+                        "score": 4.72,
+                        "datetime": "2023-03-12 06:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 12.01,
+                        "score": 4.72,
+                        "datetime": "2023-03-12 18:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 10.11,
+                        "score": 4.72,
+                        "datetime": "2023-03-13 06:00:00"
+                    },
+                    {
+                        "actual": 12.0,
+                        "predict": 7.81,
+                        "score": 4.72,
+                        "datetime": "2023-03-13 18:00:00"
+                    },
+                    {
+                        "actual": 12.0,
+                        "predict": 9.65,
+                        "score": 4.72,
+                        "datetime": "2023-03-14 06:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 8.04,
+                        "score": 4.72,
+                        "datetime": "2023-03-14 18:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 6.97,
+                        "score": 4.72,
+                        "datetime": "2023-03-15 06:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 8.47,
+                        "score": 4.72,
+                        "datetime": "2023-03-15 18:00:00"
+                    },
+                    {
+                        "actual": 5.0,
+                        "predict": 14.89,
+                        "score": 4.72,
+                        "datetime": "2023-03-16 06:00:00"
+                    },
+                    {
+                        "actual": 7.0,
+                        "predict": 8.73,
+                        "score": 4.72,
+                        "datetime": "2023-03-16 18:00:00"
+                    },
+                    {
+                        "actual": 7.0,
+                        "predict": 7.75,
+                        "score": 4.72,
+                        "datetime": "2023-03-17 06:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 7.85,
+                        "score": 4.72,
+                        "datetime": "2023-03-17 18:00:00"
+                    },
+                    {
+                        "actual": 6.0,
+                        "predict": 7.0,
+                        "score": 4.72,
+                        "datetime": "2023-03-18 06:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 6.93,
+                        "score": 4.72,
+                        "datetime": "2023-03-18 18:00:00"
+                    },
+                    {
+                        "actual": 7.0,
+                        "predict": 6.11,
+                        "score": 4.72,
+                        "datetime": "2023-03-19 06:00:00"
+                    },
+                    {
+                        "actual": 3.0,
+                        "predict": 5.86,
+                        "score": 4.72,
+                        "datetime": "2023-03-19 18:00:00"
+                    },
+                    {
+                        "actual": 3.0,
+                        "predict": 7.48,
+                        "score": 4.72,
+                        "datetime": "2023-03-20 06:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 7.58,
+                        "score": 4.72,
+                        "datetime": "2023-03-20 18:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 7.31,
+                        "score": 4.72,
+                        "datetime": "2023-03-21 06:00:00"
+                    },
+                    {
+                        "actual": 3.0,
+                        "predict": 10.22,
+                        "score": 4.72,
+                        "datetime": "2023-03-21 18:00:00"
+                    },
+                    {
+                        "actual": 12.0,
+                        "predict": 10.07,
+                        "score": 4.72,
+                        "datetime": "2023-03-22 06:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 9.3,
+                        "score": 4.72,
+                        "datetime": "2023-03-22 18:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 10.52,
+                        "score": 4.72,
+                        "datetime": "2023-03-23 06:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 11.38,
+                        "score": 4.72,
+                        "datetime": "2023-03-23 18:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 11.4,
+                        "score": 4.72,
+                        "datetime": "2023-03-24 06:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 12.61,
+                        "score": 4.72,
+                        "datetime": "2023-03-24 18:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 11.57,
+                        "score": 4.72,
+                        "datetime": "2023-03-25 06:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 12.37,
+                        "score": 4.72,
+                        "datetime": "2023-03-25 18:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 8.89,
+                        "score": 4.72,
+                        "datetime": "2023-03-26 06:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 13.95,
+                        "score": 4.72,
+                        "datetime": "2023-03-26 18:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 10.22,
+                        "score": 4.72,
+                        "datetime": "2023-03-27 06:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 15.3,
+                        "score": 4.72,
+                        "datetime": "2023-03-27 18:00:00"
+                    },
+                    {
+                        "actual": 27.0,
+                        "predict": 11.66,
+                        "score": 4.72,
+                        "datetime": "2023-03-28 06:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 10.67,
+                        "score": 4.72,
+                        "datetime": "2023-03-28 18:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 13.67,
+                        "score": 4.72,
+                        "datetime": "2023-03-29 06:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 11.63,
+                        "score": 4.72,
+                        "datetime": "2023-03-29 18:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 12.54,
+                        "score": 4.72,
+                        "datetime": "2023-03-30 06:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 10.73,
+                        "score": 4.72,
+                        "datetime": "2023-03-30 18:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 15.33,
+                        "score": 4.72,
+                        "datetime": "2023-03-31 06:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 14.87,
+                        "score": 4.72,
+                        "datetime": "2023-03-31 18:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 11.36,
+                        "score": 4.72,
+                        "datetime": "2023-04-01 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 10.27,
+                        "score": 4.72,
+                        "datetime": "2023-04-01 18:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 15.69,
+                        "score": 4.72,
+                        "datetime": "2023-04-02 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 14.09,
+                        "score": 4.72,
+                        "datetime": "2023-04-02 18:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 13.93,
+                        "score": 4.72,
+                        "datetime": "2023-04-03 06:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 15.92,
+                        "score": 4.72,
+                        "datetime": "2023-04-03 18:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 11.83,
+                        "score": 4.72,
+                        "datetime": "2023-04-04 06:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 14.55,
+                        "score": 4.72,
+                        "datetime": "2023-04-04 18:00:00"
+                    },
+                    {
+                        "actual": 25.0,
+                        "predict": 13.93,
+                        "score": 4.72,
+                        "datetime": "2023-04-05 06:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 11.65,
+                        "score": 4.72,
+                        "datetime": "2023-04-05 18:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 17.06,
+                        "score": 4.72,
+                        "datetime": "2023-04-06 06:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 14.6,
+                        "score": 4.72,
+                        "datetime": "2023-04-06 18:00:00"
+                    },
+                    {
+                        "actual": 6.0,
+                        "predict": 14.85,
+                        "score": 4.72,
+                        "datetime": "2023-04-07 06:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 9.39,
+                        "score": 4.72,
+                        "datetime": "2023-04-07 18:00:00"
+                    },
+                    {
+                        "actual": 6.0,
+                        "predict": 8.76,
+                        "score": 4.72,
+                        "datetime": "2023-04-08 06:00:00"
+                    },
+                    {
+                        "actual": 7.0,
+                        "predict": 10.21,
+                        "score": 4.72,
+                        "datetime": "2023-04-08 18:00:00"
+                    },
+                    {
+                        "actual": 5.0,
+                        "predict": 8.27,
+                        "score": 4.72,
+                        "datetime": "2023-04-09 06:00:00"
+                    },
+                    {
+                        "actual": 5.0,
+                        "predict": 6.01,
+                        "score": 4.72,
+                        "datetime": "2023-04-09 18:00:00"
+                    },
+                    {
+                        "actual": 5.0,
+                        "predict": 6.3,
+                        "score": 4.72,
+                        "datetime": "2023-04-10 06:00:00"
+                    },
+                    {
+                        "actual": 6.0,
+                        "predict": 6.08,
+                        "score": 4.72,
+                        "datetime": "2023-04-10 18:00:00"
+                    },
+                    {
+                        "actual": 3.0,
+                        "predict": 6.32,
+                        "score": 4.72,
+                        "datetime": "2023-04-11 06:00:00"
+                    }
+                ]
+            },
+            {
+                "Mean_PM25_EWMA": [
+                    {
+                        "actual": 29.0,
+                        "predict": 21.22,
+                        "score": 5.87,
+                        "datetime": "2023-03-11 06:00:00"
+                    },
+                    {
+                        "actual": 27.0,
+                        "predict": 20.41,
+                        "score": 5.87,
+                        "datetime": "2023-03-11 18:00:00"
+                    },
+                    {
+                        "actual": 17.0,
+                        "predict": 26.5,
+                        "score": 5.87,
+                        "datetime": "2023-03-12 06:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 22.72,
+                        "score": 5.87,
+                        "datetime": "2023-03-12 18:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 21.88,
+                        "score": 5.87,
+                        "datetime": "2023-03-13 06:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 13.63,
+                        "score": 5.87,
+                        "datetime": "2023-03-13 18:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 16.66,
+                        "score": 5.87,
+                        "datetime": "2023-03-14 06:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 14.78,
+                        "score": 5.87,
+                        "datetime": "2023-03-14 18:00:00"
+                    },
+                    {
+                        "actual": 52.0,
+                        "predict": 13.15,
+                        "score": 5.87,
+                        "datetime": "2023-03-15 06:00:00"
+                    },
+                    {
+                        "actual": 34.0,
+                        "predict": 14.12,
+                        "score": 5.87,
+                        "datetime": "2023-03-15 18:00:00"
+                    },
+                    {
+                        "actual": 12.0,
+                        "predict": 32.44,
+                        "score": 5.87,
+                        "datetime": "2023-03-16 06:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 19.72,
+                        "score": 5.87,
+                        "datetime": "2023-03-16 18:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 14.72,
+                        "score": 5.87,
+                        "datetime": "2023-03-17 06:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 13.96,
+                        "score": 5.87,
+                        "datetime": "2023-03-17 18:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 14.47,
+                        "score": 5.87,
+                        "datetime": "2023-03-18 06:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 12.19,
+                        "score": 5.87,
+                        "datetime": "2023-03-18 18:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 13.25,
+                        "score": 5.87,
+                        "datetime": "2023-03-19 06:00:00"
+                    },
+                    {
+                        "actual": 7.0,
+                        "predict": 9.62,
+                        "score": 5.87,
+                        "datetime": "2023-03-19 18:00:00"
+                    },
+                    {
+                        "actual": 6.0,
+                        "predict": 13.64,
+                        "score": 5.87,
+                        "datetime": "2023-03-20 06:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 14.76,
+                        "score": 5.87,
+                        "datetime": "2023-03-20 18:00:00"
+                    },
+                    {
+                        "actual": 17.0,
+                        "predict": 14.44,
+                        "score": 5.87,
+                        "datetime": "2023-03-21 06:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 19.96,
+                        "score": 5.87,
+                        "datetime": "2023-03-21 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 22.82,
+                        "score": 5.87,
+                        "datetime": "2023-03-22 06:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 20.24,
+                        "score": 5.87,
+                        "datetime": "2023-03-22 18:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 21.44,
+                        "score": 5.87,
+                        "datetime": "2023-03-23 06:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 21.6,
+                        "score": 5.87,
+                        "datetime": "2023-03-23 18:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 23.52,
+                        "score": 5.87,
+                        "datetime": "2023-03-24 06:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 25.69,
+                        "score": 5.87,
+                        "datetime": "2023-03-24 18:00:00"
+                    },
+                    {
+                        "actual": 20.0,
+                        "predict": 24.25,
+                        "score": 5.87,
+                        "datetime": "2023-03-25 06:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 26.67,
+                        "score": 5.87,
+                        "datetime": "2023-03-25 18:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 19.79,
+                        "score": 5.87,
+                        "datetime": "2023-03-26 06:00:00"
+                    },
+                    {
+                        "actual": 25.0,
+                        "predict": 28.58,
+                        "score": 5.87,
+                        "datetime": "2023-03-26 18:00:00"
+                    },
+                    {
+                        "actual": 31.0,
+                        "predict": 21.73,
+                        "score": 5.87,
+                        "datetime": "2023-03-27 06:00:00"
+                    },
+                    {
+                        "actual": 25.0,
+                        "predict": 25.1,
+                        "score": 5.87,
+                        "datetime": "2023-03-27 18:00:00"
+                    },
+                    {
+                        "actual": 33.0,
+                        "predict": 28.58,
+                        "score": 5.87,
+                        "datetime": "2023-03-28 06:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 20.29,
+                        "score": 5.87,
+                        "datetime": "2023-03-28 18:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 24.75,
+                        "score": 5.87,
+                        "datetime": "2023-03-29 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 20.03,
+                        "score": 5.87,
+                        "datetime": "2023-03-29 18:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 23.13,
+                        "score": 5.87,
+                        "datetime": "2023-03-30 06:00:00"
+                    },
+                    {
+                        "actual": 33.0,
+                        "predict": 20.03,
+                        "score": 5.87,
+                        "datetime": "2023-03-30 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 30.68,
+                        "score": 5.87,
+                        "datetime": "2023-03-31 06:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 29.3,
+                        "score": 5.87,
+                        "datetime": "2023-03-31 18:00:00"
+                    },
+                    {
+                        "actual": 27.0,
+                        "predict": 23.7,
+                        "score": 5.87,
+                        "datetime": "2023-04-01 06:00:00"
+                    },
+                    {
+                        "actual": 30.0,
+                        "predict": 16.51,
+                        "score": 5.87,
+                        "datetime": "2023-04-01 18:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 25.03,
+                        "score": 5.87,
+                        "datetime": "2023-04-02 06:00:00"
+                    },
+                    {
+                        "actual": 31.0,
+                        "predict": 25.5,
+                        "score": 5.87,
+                        "datetime": "2023-04-02 18:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 24.98,
+                        "score": 5.87,
+                        "datetime": "2023-04-03 06:00:00"
+                    },
+                    {
+                        "actual": 30.0,
+                        "predict": 26.91,
+                        "score": 5.87,
+                        "datetime": "2023-04-03 18:00:00"
+                    },
+                    {
+                        "actual": 30.0,
+                        "predict": 24.43,
+                        "score": 5.87,
+                        "datetime": "2023-04-04 06:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 26.32,
+                        "score": 5.87,
+                        "datetime": "2023-04-04 18:00:00"
+                    },
+                    {
+                        "actual": 39.0,
+                        "predict": 24.44,
+                        "score": 5.87,
+                        "datetime": "2023-04-05 06:00:00"
+                    },
+                    {
+                        "actual": 34.0,
+                        "predict": 20.65,
+                        "score": 5.87,
+                        "datetime": "2023-04-05 18:00:00"
+                    },
+                    {
+                        "actual": 35.0,
+                        "predict": 31.35,
+                        "score": 5.87,
+                        "datetime": "2023-04-06 06:00:00"
+                    },
+                    {
+                        "actual": 27.0,
+                        "predict": 20.13,
+                        "score": 5.87,
+                        "datetime": "2023-04-06 18:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 23.99,
+                        "score": 5.87,
+                        "datetime": "2023-04-07 06:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 17.57,
+                        "score": 5.87,
+                        "datetime": "2023-04-07 18:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 16.23,
+                        "score": 5.87,
+                        "datetime": "2023-04-08 06:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 17.13,
+                        "score": 5.87,
+                        "datetime": "2023-04-08 18:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 14.45,
+                        "score": 5.87,
+                        "datetime": "2023-04-09 06:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 12.44,
+                        "score": 5.87,
+                        "datetime": "2023-04-09 18:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 13.17,
+                        "score": 5.87,
+                        "datetime": "2023-04-10 06:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 10.73,
+                        "score": 5.87,
+                        "datetime": "2023-04-10 18:00:00"
+                    },
+                    {
+                        "actual": 5.0,
+                        "predict": 12.56,
+                        "score": 5.87,
+                        "datetime": "2023-04-11 06:00:00"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "EPG": [
+            {
+                "Max_PM25_EWMA": [
+                    {
+                        "actual": 27.0,
+                        "predict": 29.05,
+                        "score": 6.33,
+                        "datetime": "2023-03-11 06:00:00"
+                    },
+                    {
+                        "actual": 36.0,
+                        "predict": 29.91,
+                        "score": 6.33,
+                        "datetime": "2023-03-11 18:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 31.68,
+                        "score": 6.33,
+                        "datetime": "2023-03-12 06:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 33.05,
+                        "score": 6.33,
+                        "datetime": "2023-03-12 18:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 31.33,
+                        "score": 6.33,
+                        "datetime": "2023-03-13 06:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 23.02,
+                        "score": 6.33,
+                        "datetime": "2023-03-13 18:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 29.19,
+                        "score": 6.33,
+                        "datetime": "2023-03-14 06:00:00"
+                    },
+                    {
+                        "actual": 38.0,
+                        "predict": 19.0,
+                        "score": 6.33,
+                        "datetime": "2023-03-14 18:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 16.54,
+                        "score": 6.33,
+                        "datetime": "2023-03-15 06:00:00"
+                    },
+                    {
+                        "actual": 17.0,
+                        "predict": 24.58,
+                        "score": 6.33,
+                        "datetime": "2023-03-15 18:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 21.76,
+                        "score": 6.33,
+                        "datetime": "2023-03-16 06:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 22.4,
+                        "score": 6.33,
+                        "datetime": "2023-03-16 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 21.7,
+                        "score": 6.33,
+                        "datetime": "2023-03-17 06:00:00"
+                    },
+                    {
+                        "actual": 30.0,
+                        "predict": 25.57,
+                        "score": 6.33,
+                        "datetime": "2023-03-17 18:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 21.22,
+                        "score": 6.33,
+                        "datetime": "2023-03-18 06:00:00"
+                    },
+                    {
+                        "actual": 20.0,
+                        "predict": 17.61,
+                        "score": 6.33,
+                        "datetime": "2023-03-18 18:00:00"
+                    },
+                    {
+                        "actual": 12.0,
+                        "predict": 16.18,
+                        "score": 6.33,
+                        "datetime": "2023-03-19 06:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 15.17,
+                        "score": 6.33,
+                        "datetime": "2023-03-19 18:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 18.9,
+                        "score": 6.33,
+                        "datetime": "2023-03-20 06:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 22.67,
+                        "score": 6.33,
+                        "datetime": "2023-03-20 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 21.82,
+                        "score": 6.33,
+                        "datetime": "2023-03-21 06:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 31.53,
+                        "score": 6.33,
+                        "datetime": "2023-03-21 18:00:00"
+                    },
+                    {
+                        "actual": 30.0,
+                        "predict": 27.74,
+                        "score": 6.33,
+                        "datetime": "2023-03-22 06:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 25.55,
+                        "score": 6.33,
+                        "datetime": "2023-03-22 18:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 29.64,
+                        "score": 6.33,
+                        "datetime": "2023-03-23 06:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 33.93,
+                        "score": 6.33,
+                        "datetime": "2023-03-23 18:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 28.73,
+                        "score": 6.33,
+                        "datetime": "2023-03-24 06:00:00"
+                    },
+                    {
+                        "actual": 31.0,
+                        "predict": 38.6,
+                        "score": 6.33,
+                        "datetime": "2023-03-24 18:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 28.2,
+                        "score": 6.33,
+                        "datetime": "2023-03-25 06:00:00"
+                    },
+                    {
+                        "actual": 36.0,
+                        "predict": 38.89,
+                        "score": 6.33,
+                        "datetime": "2023-03-25 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 28.13,
+                        "score": 6.33,
+                        "datetime": "2023-03-26 06:00:00"
+                    },
+                    {
+                        "actual": 31.0,
+                        "predict": 37.54,
+                        "score": 6.33,
+                        "datetime": "2023-03-26 18:00:00"
+                    },
+                    {
+                        "actual": 34.0,
+                        "predict": 18.78,
+                        "score": 6.33,
+                        "datetime": "2023-03-27 06:00:00"
+                    },
+                    {
+                        "actual": 34.0,
+                        "predict": 38.04,
+                        "score": 6.33,
+                        "datetime": "2023-03-27 18:00:00"
+                    },
+                    {
+                        "actual": 42.0,
+                        "predict": 30.43,
+                        "score": 6.33,
+                        "datetime": "2023-03-28 06:00:00"
+                    },
+                    {
+                        "actual": 40.0,
+                        "predict": 27.83,
+                        "score": 6.33,
+                        "datetime": "2023-03-28 18:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 30.68,
+                        "score": 6.33,
+                        "datetime": "2023-03-29 06:00:00"
+                    },
+                    {
+                        "actual": 27.0,
+                        "predict": 28.5,
+                        "score": 6.33,
+                        "datetime": "2023-03-29 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 33.38,
+                        "score": 6.33,
+                        "datetime": "2023-03-30 06:00:00"
+                    },
+                    {
+                        "actual": 43.0,
+                        "predict": 25.51,
+                        "score": 6.33,
+                        "datetime": "2023-03-30 18:00:00"
+                    },
+                    {
+                        "actual": 35.0,
+                        "predict": 33.74,
+                        "score": 6.33,
+                        "datetime": "2023-03-31 06:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 38.54,
+                        "score": 6.33,
+                        "datetime": "2023-03-31 18:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 32.67,
+                        "score": 6.33,
+                        "datetime": "2023-04-01 06:00:00"
+                    },
+                    {
+                        "actual": 38.0,
+                        "predict": 24.33,
+                        "score": 6.33,
+                        "datetime": "2023-04-01 18:00:00"
+                    },
+                    {
+                        "actual": 59.0,
+                        "predict": 33.55,
+                        "score": 6.33,
+                        "datetime": "2023-04-02 06:00:00"
+                    },
+                    {
+                        "actual": 36.0,
+                        "predict": 37.17,
+                        "score": 6.33,
+                        "datetime": "2023-04-02 18:00:00"
+                    },
+                    {
+                        "actual": 33.0,
+                        "predict": 39.0,
+                        "score": 6.33,
+                        "datetime": "2023-04-03 06:00:00"
+                    },
+                    {
+                        "actual": 42.0,
+                        "predict": 38.81,
+                        "score": 6.33,
+                        "datetime": "2023-04-03 18:00:00"
+                    },
+                    {
+                        "actual": 33.0,
+                        "predict": 26.73,
+                        "score": 6.33,
+                        "datetime": "2023-04-04 06:00:00"
+                    },
+                    {
+                        "actual": 39.0,
+                        "predict": 44.55,
+                        "score": 6.33,
+                        "datetime": "2023-04-04 18:00:00"
+                    },
+                    {
+                        "actual": 42.0,
+                        "predict": 29.78,
+                        "score": 6.33,
+                        "datetime": "2023-04-05 06:00:00"
+                    },
+                    {
+                        "actual": 40.0,
+                        "predict": 31.67,
+                        "score": 6.33,
+                        "datetime": "2023-04-05 18:00:00"
+                    },
+                    {
+                        "actual": 44.0,
+                        "predict": 34.71,
+                        "score": 6.33,
+                        "datetime": "2023-04-06 06:00:00"
+                    },
+                    {
+                        "actual": 60.0,
+                        "predict": 27.0,
+                        "score": 6.33,
+                        "datetime": "2023-04-06 18:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 26.15,
+                        "score": 6.33,
+                        "datetime": "2023-04-07 06:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 23.2,
+                        "score": 6.33,
+                        "datetime": "2023-04-07 18:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 21.49,
+                        "score": 6.33,
+                        "datetime": "2023-04-08 06:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 25.22,
+                        "score": 6.33,
+                        "datetime": "2023-04-08 18:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 22.5,
+                        "score": 6.33,
+                        "datetime": "2023-04-09 06:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 17.95,
+                        "score": 6.33,
+                        "datetime": "2023-04-09 18:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 18.06,
+                        "score": 6.33,
+                        "datetime": "2023-04-10 06:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 15.99,
+                        "score": 6.33,
+                        "datetime": "2023-04-10 18:00:00"
+                    },
+                    {
+                        "actual": 8.0,
+                        "predict": 17.85,
+                        "score": 6.33,
+                        "datetime": "2023-04-11 06:00:00"
+                    }
+                ]
+            },
+            {
+                "Min_PM25_EWMA": [
+                    {
+                        "actual": 16.0,
+                        "predict": 9.63,
+                        "score": 4.05,
+                        "datetime": "2023-03-11 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 12.85,
+                        "score": 4.05,
+                        "datetime": "2023-03-11 18:00:00"
+                    },
+                    {
+                        "actual": 12.0,
+                        "predict": 12.96,
+                        "score": 4.05,
+                        "datetime": "2023-03-12 06:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 13.84,
+                        "score": 4.05,
+                        "datetime": "2023-03-12 18:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 12.09,
+                        "score": 4.05,
+                        "datetime": "2023-03-13 06:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 11.41,
+                        "score": 4.05,
+                        "datetime": "2023-03-13 18:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 11.62,
+                        "score": 4.05,
+                        "datetime": "2023-03-14 06:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 9.76,
+                        "score": 4.05,
+                        "datetime": "2023-03-14 18:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 8.94,
+                        "score": 4.05,
+                        "datetime": "2023-03-15 06:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 11.06,
+                        "score": 4.05,
+                        "datetime": "2023-03-15 18:00:00"
+                    },
+                    {
+                        "actual": 5.0,
+                        "predict": 9.53,
+                        "score": 4.05,
+                        "datetime": "2023-03-16 06:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 9.69,
+                        "score": 4.05,
+                        "datetime": "2023-03-16 18:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 8.09,
+                        "score": 4.05,
+                        "datetime": "2023-03-17 06:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 10.41,
+                        "score": 4.05,
+                        "datetime": "2023-03-17 18:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 9.65,
+                        "score": 4.05,
+                        "datetime": "2023-03-18 06:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 8.84,
+                        "score": 4.05,
+                        "datetime": "2023-03-18 18:00:00"
+                    },
+                    {
+                        "actual": 6.0,
+                        "predict": 8.77,
+                        "score": 4.05,
+                        "datetime": "2023-03-19 06:00:00"
+                    },
+                    {
+                        "actual": 4.0,
+                        "predict": 8.79,
+                        "score": 4.05,
+                        "datetime": "2023-03-19 18:00:00"
+                    },
+                    {
+                        "actual": 5.0,
+                        "predict": 8.88,
+                        "score": 4.05,
+                        "datetime": "2023-03-20 06:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 9.62,
+                        "score": 4.05,
+                        "datetime": "2023-03-20 18:00:00"
+                    },
+                    {
+                        "actual": 3.0,
+                        "predict": 9.14,
+                        "score": 4.05,
+                        "datetime": "2023-03-21 06:00:00"
+                    },
+                    {
+                        "actual": 8.0,
+                        "predict": 12.33,
+                        "score": 4.05,
+                        "datetime": "2023-03-21 18:00:00"
+                    },
+                    {
+                        "actual": 8.0,
+                        "predict": 9.4,
+                        "score": 4.05,
+                        "datetime": "2023-03-22 06:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 10.53,
+                        "score": 4.05,
+                        "datetime": "2023-03-22 18:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 9.77,
+                        "score": 4.05,
+                        "datetime": "2023-03-23 06:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 12.58,
+                        "score": 4.05,
+                        "datetime": "2023-03-23 18:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 10.54,
+                        "score": 4.05,
+                        "datetime": "2023-03-24 06:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 14.03,
+                        "score": 4.05,
+                        "datetime": "2023-03-24 18:00:00"
+                    },
+                    {
+                        "actual": 12.0,
+                        "predict": 9.34,
+                        "score": 4.05,
+                        "datetime": "2023-03-25 06:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 12.84,
+                        "score": 4.05,
+                        "datetime": "2023-03-25 18:00:00"
+                    },
+                    {
+                        "actual": 8.0,
+                        "predict": 9.26,
+                        "score": 4.05,
+                        "datetime": "2023-03-26 06:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 13.53,
+                        "score": 4.05,
+                        "datetime": "2023-03-26 18:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 8.01,
+                        "score": 4.05,
+                        "datetime": "2023-03-27 06:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 12.89,
+                        "score": 4.05,
+                        "datetime": "2023-03-27 18:00:00"
+                    },
+                    {
+                        "actual": 17.0,
+                        "predict": 11.84,
+                        "score": 4.05,
+                        "datetime": "2023-03-28 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 11.77,
+                        "score": 4.05,
+                        "datetime": "2023-03-28 18:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 12.77,
+                        "score": 4.05,
+                        "datetime": "2023-03-29 06:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 14.06,
+                        "score": 4.05,
+                        "datetime": "2023-03-29 18:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 14.23,
+                        "score": 4.05,
+                        "datetime": "2023-03-30 06:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 9.42,
+                        "score": 4.05,
+                        "datetime": "2023-03-30 18:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 11.97,
+                        "score": 4.05,
+                        "datetime": "2023-03-31 06:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 15.97,
+                        "score": 4.05,
+                        "datetime": "2023-03-31 18:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 12.28,
+                        "score": 4.05,
+                        "datetime": "2023-04-01 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 13.19,
+                        "score": 4.05,
+                        "datetime": "2023-04-01 18:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 11.88,
+                        "score": 4.05,
+                        "datetime": "2023-04-02 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 16.46,
+                        "score": 4.05,
+                        "datetime": "2023-04-02 18:00:00"
+                    },
+                    {
+                        "actual": 7.0,
+                        "predict": 11.57,
+                        "score": 4.05,
+                        "datetime": "2023-04-03 06:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 15.8,
+                        "score": 4.05,
+                        "datetime": "2023-04-03 18:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 8.47,
+                        "score": 4.05,
+                        "datetime": "2023-04-04 06:00:00"
+                    },
+                    {
+                        "actual": 25.0,
+                        "predict": 15.21,
+                        "score": 4.05,
+                        "datetime": "2023-04-04 18:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 10.03,
+                        "score": 4.05,
+                        "datetime": "2023-04-05 06:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 15.01,
+                        "score": 4.05,
+                        "datetime": "2023-04-05 18:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 13.31,
+                        "score": 4.05,
+                        "datetime": "2023-04-06 06:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 14.39,
+                        "score": 4.05,
+                        "datetime": "2023-04-06 18:00:00"
+                    },
+                    {
+                        "actual": 4.0,
+                        "predict": 11.25,
+                        "score": 4.05,
+                        "datetime": "2023-04-07 06:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 9.57,
+                        "score": 4.05,
+                        "datetime": "2023-04-07 18:00:00"
+                    },
+                    {
+                        "actual": 5.0,
+                        "predict": 9.57,
+                        "score": 4.05,
+                        "datetime": "2023-04-08 06:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 12.94,
+                        "score": 4.05,
+                        "datetime": "2023-04-08 18:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 9.63,
+                        "score": 4.05,
+                        "datetime": "2023-04-09 06:00:00"
+                    },
+                    {
+                        "actual": 4.0,
+                        "predict": 9.12,
+                        "score": 4.05,
+                        "datetime": "2023-04-09 18:00:00"
+                    },
+                    {
+                        "actual": 5.0,
+                        "predict": 9.03,
+                        "score": 4.05,
+                        "datetime": "2023-04-10 06:00:00"
+                    },
+                    {
+                        "actual": 4.0,
+                        "predict": 8.32,
+                        "score": 4.05,
+                        "datetime": "2023-04-10 18:00:00"
+                    },
+                    {
+                        "actual": 4.0,
+                        "predict": 9.12,
+                        "score": 4.05,
+                        "datetime": "2023-04-11 06:00:00"
+                    }
+                ]
+            },
+            {
+                "Mean_PM25_EWMA": [
+                    {
+                        "actual": 23.0,
+                        "predict": 18.65,
+                        "score": 4.13,
+                        "datetime": "2023-03-11 06:00:00"
+                    },
+                    {
+                        "actual": 27.0,
+                        "predict": 21.4,
+                        "score": 4.13,
+                        "datetime": "2023-03-11 18:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 22.36,
+                        "score": 4.13,
+                        "datetime": "2023-03-12 06:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 23.92,
+                        "score": 4.13,
+                        "datetime": "2023-03-12 18:00:00"
+                    },
+                    {
+                        "actual": 20.0,
+                        "predict": 22.3,
+                        "score": 4.13,
+                        "datetime": "2023-03-13 06:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 16.35,
+                        "score": 4.13,
+                        "datetime": "2023-03-13 18:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 20.19,
+                        "score": 4.13,
+                        "datetime": "2023-03-14 06:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 13.02,
+                        "score": 4.13,
+                        "datetime": "2023-03-14 18:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 11.11,
+                        "score": 4.13,
+                        "datetime": "2023-03-15 06:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 17.06,
+                        "score": 4.13,
+                        "datetime": "2023-03-15 18:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 14.68,
+                        "score": 4.13,
+                        "datetime": "2023-03-16 06:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 15.35,
+                        "score": 4.13,
+                        "datetime": "2023-03-16 18:00:00"
+                    },
+                    {
+                        "actual": 17.0,
+                        "predict": 13.72,
+                        "score": 4.13,
+                        "datetime": "2023-03-17 06:00:00"
+                    },
+                    {
+                        "actual": 20.0,
+                        "predict": 17.16,
+                        "score": 4.13,
+                        "datetime": "2023-03-17 18:00:00"
+                    },
+                    {
+                        "actual": 17.0,
+                        "predict": 14.18,
+                        "score": 4.13,
+                        "datetime": "2023-03-18 06:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 11.6,
+                        "score": 4.13,
+                        "datetime": "2023-03-18 18:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 10.57,
+                        "score": 4.13,
+                        "datetime": "2023-03-19 06:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 10.31,
+                        "score": 4.13,
+                        "datetime": "2023-03-19 18:00:00"
+                    },
+                    {
+                        "actual": 7.0,
+                        "predict": 12.73,
+                        "score": 4.13,
+                        "datetime": "2023-03-20 06:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 15.72,
+                        "score": 4.13,
+                        "datetime": "2023-03-20 18:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 15.07,
+                        "score": 4.13,
+                        "datetime": "2023-03-21 06:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 23.45,
+                        "score": 4.13,
+                        "datetime": "2023-03-21 18:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 18.81,
+                        "score": 4.13,
+                        "datetime": "2023-03-22 06:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 17.89,
+                        "score": 4.13,
+                        "datetime": "2023-03-22 18:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 18.87,
+                        "score": 4.13,
+                        "datetime": "2023-03-23 06:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 23.41,
+                        "score": 4.13,
+                        "datetime": "2023-03-23 18:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 19.22,
+                        "score": 4.13,
+                        "datetime": "2023-03-24 06:00:00"
+                    },
+                    {
+                        "actual": 25.0,
+                        "predict": 27.9,
+                        "score": 4.13,
+                        "datetime": "2023-03-24 18:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 18.7,
+                        "score": 4.13,
+                        "datetime": "2023-03-25 06:00:00"
+                    },
+                    {
+                        "actual": 27.0,
+                        "predict": 25.89,
+                        "score": 4.13,
+                        "datetime": "2023-03-25 18:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 17.5,
+                        "score": 4.13,
+                        "datetime": "2023-03-26 06:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 26.74,
+                        "score": 4.13,
+                        "datetime": "2023-03-26 18:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 12.01,
+                        "score": 4.13,
+                        "datetime": "2023-03-27 06:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 26.42,
+                        "score": 4.13,
+                        "datetime": "2023-03-27 18:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 21.18,
+                        "score": 4.13,
+                        "datetime": "2023-03-28 06:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 18.8,
+                        "score": 4.13,
+                        "datetime": "2023-03-28 18:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 21.26,
+                        "score": 4.13,
+                        "datetime": "2023-03-29 06:00:00"
+                    },
+                    {
+                        "actual": 17.0,
+                        "predict": 21.03,
+                        "score": 4.13,
+                        "datetime": "2023-03-29 18:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 23.1,
+                        "score": 4.13,
+                        "datetime": "2023-03-30 06:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 16.38,
+                        "score": 4.13,
+                        "datetime": "2023-03-30 18:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 23.02,
+                        "score": 4.13,
+                        "datetime": "2023-03-31 06:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 28.51,
+                        "score": 4.13,
+                        "datetime": "2023-03-31 18:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 22.65,
+                        "score": 4.13,
+                        "datetime": "2023-04-01 06:00:00"
+                    },
+                    {
+                        "actual": 30.0,
+                        "predict": 17.84,
+                        "score": 4.13,
+                        "datetime": "2023-04-01 18:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 22.32,
+                        "score": 4.13,
+                        "datetime": "2023-04-02 06:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 27.97,
+                        "score": 4.13,
+                        "datetime": "2023-04-02 18:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 26.03,
+                        "score": 4.13,
+                        "datetime": "2023-04-03 06:00:00"
+                    },
+                    {
+                        "actual": 35.0,
+                        "predict": 28.25,
+                        "score": 4.13,
+                        "datetime": "2023-04-03 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 15.84,
+                        "score": 4.13,
+                        "datetime": "2023-04-04 06:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 29.48,
+                        "score": 4.13,
+                        "datetime": "2023-04-04 18:00:00"
+                    },
+                    {
+                        "actual": 30.0,
+                        "predict": 19.45,
+                        "score": 4.13,
+                        "datetime": "2023-04-05 06:00:00"
+                    },
+                    {
+                        "actual": 30.0,
+                        "predict": 23.58,
+                        "score": 4.13,
+                        "datetime": "2023-04-05 18:00:00"
+                    },
+                    {
+                        "actual": 27.0,
+                        "predict": 23.88,
+                        "score": 4.13,
+                        "datetime": "2023-04-06 06:00:00"
+                    },
+                    {
+                        "actual": 27.0,
+                        "predict": 20.24,
+                        "score": 4.13,
+                        "datetime": "2023-04-06 18:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 17.84,
+                        "score": 4.13,
+                        "datetime": "2023-04-07 06:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 16.09,
+                        "score": 4.13,
+                        "datetime": "2023-04-07 18:00:00"
+                    },
+                    {
+                        "actual": 12.0,
+                        "predict": 14.75,
+                        "score": 4.13,
+                        "datetime": "2023-04-08 06:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 19.69,
+                        "score": 4.13,
+                        "datetime": "2023-04-08 18:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 15.05,
+                        "score": 4.13,
+                        "datetime": "2023-04-09 06:00:00"
+                    },
+                    {
+                        "actual": 12.0,
+                        "predict": 11.43,
+                        "score": 4.13,
+                        "datetime": "2023-04-09 18:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 11.76,
+                        "score": 4.13,
+                        "datetime": "2023-04-10 06:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 10.35,
+                        "score": 4.13,
+                        "datetime": "2023-04-10 18:00:00"
+                    },
+                    {
+                        "actual": 6.0,
+                        "predict": 12.44,
+                        "score": 4.13,
+                        "datetime": "2023-04-11 06:00:00"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "FEO": [
+            {
+                "Max_PM25_EWMA": [
+                    {
+                        "actual": 30.0,
+                        "predict": 28.36,
+                        "score": 6.58,
+                        "datetime": "2023-03-11 06:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 35.53,
+                        "score": 6.58,
+                        "datetime": "2023-03-11 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 30.48,
+                        "score": 6.58,
+                        "datetime": "2023-03-12 06:00:00"
+                    },
+                    {
+                        "actual": 37.0,
+                        "predict": 33.73,
+                        "score": 6.58,
+                        "datetime": "2023-03-12 18:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 29.02,
+                        "score": 6.58,
+                        "datetime": "2023-03-13 06:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 30.76,
+                        "score": 6.58,
+                        "datetime": "2023-03-13 18:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 26.49,
+                        "score": 6.58,
+                        "datetime": "2023-03-14 06:00:00"
+                    },
+                    {
+                        "actual": 41.0,
+                        "predict": 27.87,
+                        "score": 6.58,
+                        "datetime": "2023-03-14 18:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 21.87,
+                        "score": 6.58,
+                        "datetime": "2023-03-15 06:00:00"
+                    },
+                    {
+                        "actual": 25.0,
+                        "predict": 33.41,
+                        "score": 6.58,
+                        "datetime": "2023-03-15 18:00:00"
+                    },
+                    {
+                        "actual": 20.0,
+                        "predict": 21.25,
+                        "score": 6.58,
+                        "datetime": "2023-03-16 06:00:00"
+                    },
+                    {
+                        "actual": 20.0,
+                        "predict": 23.04,
+                        "score": 6.58,
+                        "datetime": "2023-03-16 18:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 18.69,
+                        "score": 6.58,
+                        "datetime": "2023-03-17 06:00:00"
+                    },
+                    {
+                        "actual": 25.0,
+                        "predict": 22.7,
+                        "score": 6.58,
+                        "datetime": "2023-03-17 18:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 16.66,
+                        "score": 6.58,
+                        "datetime": "2023-03-18 06:00:00"
+                    },
+                    {
+                        "actual": 20.0,
+                        "predict": 25.44,
+                        "score": 6.58,
+                        "datetime": "2023-03-18 18:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 22.33,
+                        "score": 6.58,
+                        "datetime": "2023-03-19 06:00:00"
+                    },
+                    {
+                        "actual": 25.0,
+                        "predict": 21.02,
+                        "score": 6.58,
+                        "datetime": "2023-03-19 18:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 19.93,
+                        "score": 6.58,
+                        "datetime": "2023-03-20 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 25.38,
+                        "score": 6.58,
+                        "datetime": "2023-03-20 18:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 21.02,
+                        "score": 6.58,
+                        "datetime": "2023-03-21 06:00:00"
+                    },
+                    {
+                        "actual": 25.0,
+                        "predict": 26.64,
+                        "score": 6.58,
+                        "datetime": "2023-03-21 18:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 24.87,
+                        "score": 6.58,
+                        "datetime": "2023-03-22 06:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 26.71,
+                        "score": 6.58,
+                        "datetime": "2023-03-22 18:00:00"
+                    },
+                    {
+                        "actual": 31.0,
+                        "predict": 28.19,
+                        "score": 6.58,
+                        "datetime": "2023-03-23 06:00:00"
+                    },
+                    {
+                        "actual": 33.0,
+                        "predict": 28.85,
+                        "score": 6.58,
+                        "datetime": "2023-03-23 18:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 26.95,
+                        "score": 6.58,
+                        "datetime": "2023-03-24 06:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 36.63,
+                        "score": 6.58,
+                        "datetime": "2023-03-24 18:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 23.98,
+                        "score": 6.58,
+                        "datetime": "2023-03-25 06:00:00"
+                    },
+                    {
+                        "actual": 38.0,
+                        "predict": 31.14,
+                        "score": 6.58,
+                        "datetime": "2023-03-25 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 27.22,
+                        "score": 6.58,
+                        "datetime": "2023-03-26 06:00:00"
+                    },
+                    {
+                        "actual": 34.0,
+                        "predict": 37.61,
+                        "score": 6.58,
+                        "datetime": "2023-03-26 18:00:00"
+                    },
+                    {
+                        "actual": 35.0,
+                        "predict": 22.48,
+                        "score": 6.58,
+                        "datetime": "2023-03-27 06:00:00"
+                    },
+                    {
+                        "actual": 39.0,
+                        "predict": 33.47,
+                        "score": 6.58,
+                        "datetime": "2023-03-27 18:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 30.27,
+                        "score": 6.58,
+                        "datetime": "2023-03-28 06:00:00"
+                    },
+                    {
+                        "actual": 57.0,
+                        "predict": 31.17,
+                        "score": 6.58,
+                        "datetime": "2023-03-28 18:00:00"
+                    },
+                    {
+                        "actual": 50.0,
+                        "predict": 32.07,
+                        "score": 6.58,
+                        "datetime": "2023-03-29 06:00:00"
+                    },
+                    {
+                        "actual": 38.0,
+                        "predict": 40.14,
+                        "score": 6.58,
+                        "datetime": "2023-03-29 18:00:00"
+                    },
+                    {
+                        "actual": 25.0,
+                        "predict": 41.61,
+                        "score": 6.58,
+                        "datetime": "2023-03-30 06:00:00"
+                    },
+                    {
+                        "actual": 35.0,
+                        "predict": 29.66,
+                        "score": 6.58,
+                        "datetime": "2023-03-30 18:00:00"
+                    },
+                    {
+                        "actual": 27.0,
+                        "predict": 29.23,
+                        "score": 6.58,
+                        "datetime": "2023-03-31 06:00:00"
+                    },
+                    {
+                        "actual": 35.0,
+                        "predict": 37.45,
+                        "score": 6.58,
+                        "datetime": "2023-03-31 18:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 29.32,
+                        "score": 6.58,
+                        "datetime": "2023-04-01 06:00:00"
+                    },
+                    {
+                        "actual": 55.0,
+                        "predict": 32.08,
+                        "score": 6.58,
+                        "datetime": "2023-04-01 18:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 32.38,
+                        "score": 6.58,
+                        "datetime": "2023-04-02 06:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 40.1,
+                        "score": 6.58,
+                        "datetime": "2023-04-02 18:00:00"
+                    },
+                    {
+                        "actual": 41.0,
+                        "predict": 28.22,
+                        "score": 6.58,
+                        "datetime": "2023-04-03 06:00:00"
+                    },
+                    {
+                        "actual": 37.0,
+                        "predict": 35.86,
+                        "score": 6.58,
+                        "datetime": "2023-04-03 18:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 30.98,
+                        "score": 6.58,
+                        "datetime": "2023-04-04 06:00:00"
+                    },
+                    {
+                        "actual": 35.0,
+                        "predict": 33.88,
+                        "score": 6.58,
+                        "datetime": "2023-04-04 18:00:00"
+                    },
+                    {
+                        "actual": 37.0,
+                        "predict": 24.87,
+                        "score": 6.58,
+                        "datetime": "2023-04-05 06:00:00"
+                    },
+                    {
+                        "actual": 52.0,
+                        "predict": 36.25,
+                        "score": 6.58,
+                        "datetime": "2023-04-05 18:00:00"
+                    },
+                    {
+                        "actual": 38.0,
+                        "predict": 33.73,
+                        "score": 6.58,
+                        "datetime": "2023-04-06 06:00:00"
+                    },
+                    {
+                        "actual": 58.0,
+                        "predict": 36.81,
+                        "score": 6.58,
+                        "datetime": "2023-04-06 18:00:00"
+                    },
+                    {
+                        "actual": 17.0,
+                        "predict": 32.39,
+                        "score": 6.58,
+                        "datetime": "2023-04-07 06:00:00"
+                    },
+                    {
+                        "actual": 38.0,
+                        "predict": 37.28,
+                        "score": 6.58,
+                        "datetime": "2023-04-07 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 22.56,
+                        "score": 6.58,
+                        "datetime": "2023-04-08 06:00:00"
+                    },
+                    {
+                        "actual": 35.0,
+                        "predict": 36.63,
+                        "score": 6.58,
+                        "datetime": "2023-04-08 18:00:00"
+                    },
+                    {
+                        "actual": 20.0,
+                        "predict": 23.99,
+                        "score": 6.58,
+                        "datetime": "2023-04-09 06:00:00"
+                    },
+                    {
+                        "actual": 59.0,
+                        "predict": 24.8,
+                        "score": 6.58,
+                        "datetime": "2023-04-09 18:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 22.27,
+                        "score": 6.58,
+                        "datetime": "2023-04-10 06:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 32.14,
+                        "score": 6.58,
+                        "datetime": "2023-04-10 18:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 17.02,
+                        "score": 6.58,
+                        "datetime": "2023-04-11 06:00:00"
+                    }
+                ]
+            },
+            {
+                "Min_PM25_EWMA": [
+                    {
+                        "actual": 16.0,
+                        "predict": 9.92,
+                        "score": 3.98,
+                        "datetime": "2023-03-11 06:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 17.81,
+                        "score": 3.98,
+                        "datetime": "2023-03-11 18:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 13.43,
+                        "score": 3.98,
+                        "datetime": "2023-03-12 06:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 14.1,
+                        "score": 3.98,
+                        "datetime": "2023-03-12 18:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 12.67,
+                        "score": 3.98,
+                        "datetime": "2023-03-13 06:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 13.02,
+                        "score": 3.98,
+                        "datetime": "2023-03-13 18:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 10.43,
+                        "score": 3.98,
+                        "datetime": "2023-03-14 06:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 9.96,
+                        "score": 3.98,
+                        "datetime": "2023-03-14 18:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 7.71,
+                        "score": 3.98,
+                        "datetime": "2023-03-15 06:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 13.79,
+                        "score": 3.98,
+                        "datetime": "2023-03-15 18:00:00"
+                    },
+                    {
+                        "actual": 3.0,
+                        "predict": 6.48,
+                        "score": 3.98,
+                        "datetime": "2023-03-16 06:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 9.49,
+                        "score": 3.98,
+                        "datetime": "2023-03-16 18:00:00"
+                    },
+                    {
+                        "actual": 7.0,
+                        "predict": 4.5,
+                        "score": 3.98,
+                        "datetime": "2023-03-17 06:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 8.48,
+                        "score": 3.98,
+                        "datetime": "2023-03-17 18:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 6.0,
+                        "score": 3.98,
+                        "datetime": "2023-03-18 06:00:00"
+                    },
+                    {
+                        "actual": 12.0,
+                        "predict": 8.67,
+                        "score": 3.98,
+                        "datetime": "2023-03-18 18:00:00"
+                    },
+                    {
+                        "actual": 5.0,
+                        "predict": 7.49,
+                        "score": 3.98,
+                        "datetime": "2023-03-19 06:00:00"
+                    },
+                    {
+                        "actual": 4.0,
+                        "predict": 7.5,
+                        "score": 3.98,
+                        "datetime": "2023-03-19 18:00:00"
+                    },
+                    {
+                        "actual": 4.0,
+                        "predict": 5.55,
+                        "score": 3.98,
+                        "datetime": "2023-03-20 06:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 7.2,
+                        "score": 3.98,
+                        "datetime": "2023-03-20 18:00:00"
+                    },
+                    {
+                        "actual": 5.0,
+                        "predict": 5.87,
+                        "score": 3.98,
+                        "datetime": "2023-03-21 06:00:00"
+                    },
+                    {
+                        "actual": 6.0,
+                        "predict": 10.27,
+                        "score": 3.98,
+                        "datetime": "2023-03-21 18:00:00"
+                    },
+                    {
+                        "actual": 12.0,
+                        "predict": 8.11,
+                        "score": 3.98,
+                        "datetime": "2023-03-22 06:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 8.53,
+                        "score": 3.98,
+                        "datetime": "2023-03-22 18:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 9.71,
+                        "score": 3.98,
+                        "datetime": "2023-03-23 06:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 12.92,
+                        "score": 3.98,
+                        "datetime": "2023-03-23 18:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 9.1,
+                        "score": 3.98,
+                        "datetime": "2023-03-24 06:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 19.9,
+                        "score": 3.98,
+                        "datetime": "2023-03-24 18:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 8.22,
+                        "score": 3.98,
+                        "datetime": "2023-03-25 06:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 12.99,
+                        "score": 3.98,
+                        "datetime": "2023-03-25 18:00:00"
+                    },
+                    {
+                        "actual": 8.0,
+                        "predict": 9.45,
+                        "score": 3.98,
+                        "datetime": "2023-03-26 06:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 19.93,
+                        "score": 3.98,
+                        "datetime": "2023-03-26 18:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 6.55,
+                        "score": 3.98,
+                        "datetime": "2023-03-27 06:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 15.77,
+                        "score": 3.98,
+                        "datetime": "2023-03-27 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 13.86,
+                        "score": 3.98,
+                        "datetime": "2023-03-28 06:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 14.31,
+                        "score": 3.98,
+                        "datetime": "2023-03-28 18:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 17.32,
+                        "score": 3.98,
+                        "datetime": "2023-03-29 06:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 23.95,
+                        "score": 3.98,
+                        "datetime": "2023-03-29 18:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 18.83,
+                        "score": 3.98,
+                        "datetime": "2023-03-30 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 13.03,
+                        "score": 3.98,
+                        "datetime": "2023-03-30 18:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 13.57,
+                        "score": 3.98,
+                        "datetime": "2023-03-31 06:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 22.43,
+                        "score": 3.98,
+                        "datetime": "2023-03-31 18:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 13.51,
+                        "score": 3.98,
+                        "datetime": "2023-04-01 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 14.27,
+                        "score": 3.98,
+                        "datetime": "2023-04-01 18:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 16.29,
+                        "score": 3.98,
+                        "datetime": "2023-04-02 06:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 24.48,
+                        "score": 3.98,
+                        "datetime": "2023-04-02 18:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 11.47,
+                        "score": 3.98,
+                        "datetime": "2023-04-03 06:00:00"
+                    },
+                    {
+                        "actual": 20.0,
+                        "predict": 20.02,
+                        "score": 3.98,
+                        "datetime": "2023-04-03 18:00:00"
+                    },
+                    {
+                        "actual": 12.0,
+                        "predict": 11.83,
+                        "score": 3.98,
+                        "datetime": "2023-04-04 06:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 17.89,
+                        "score": 3.98,
+                        "datetime": "2023-04-04 18:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 10.25,
+                        "score": 3.98,
+                        "datetime": "2023-04-05 06:00:00"
+                    },
+                    {
+                        "actual": 25.0,
+                        "predict": 19.31,
+                        "score": 3.98,
+                        "datetime": "2023-04-05 18:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 16.56,
+                        "score": 3.98,
+                        "datetime": "2023-04-06 06:00:00"
+                    },
+                    {
+                        "actual": 17.0,
+                        "predict": 20.31,
+                        "score": 3.98,
+                        "datetime": "2023-04-06 18:00:00"
+                    },
+                    {
+                        "actual": 6.0,
+                        "predict": 12.98,
+                        "score": 3.98,
+                        "datetime": "2023-04-07 06:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 17.66,
+                        "score": 3.98,
+                        "datetime": "2023-04-07 18:00:00"
+                    },
+                    {
+                        "actual": 7.0,
+                        "predict": 7.93,
+                        "score": 3.98,
+                        "datetime": "2023-04-08 06:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 16.95,
+                        "score": 3.98,
+                        "datetime": "2023-04-08 18:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 7.86,
+                        "score": 3.98,
+                        "datetime": "2023-04-09 06:00:00"
+                    },
+                    {
+                        "actual": 5.0,
+                        "predict": 7.13,
+                        "score": 3.98,
+                        "datetime": "2023-04-09 18:00:00"
+                    },
+                    {
+                        "actual": 7.0,
+                        "predict": 9.16,
+                        "score": 3.98,
+                        "datetime": "2023-04-10 06:00:00"
+                    },
+                    {
+                        "actual": 6.0,
+                        "predict": 10.28,
+                        "score": 3.98,
+                        "datetime": "2023-04-10 18:00:00"
+                    },
+                    {
+                        "actual": 6.0,
+                        "predict": 6.91,
+                        "score": 3.98,
+                        "datetime": "2023-04-11 06:00:00"
+                    }
+                ]
+            },
+            {
+                "Mean_PM25_EWMA": [
+                    {
+                        "actual": 21.0,
+                        "predict": 18.67,
+                        "score": 4.36,
+                        "datetime": "2023-03-11 06:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 27.52,
+                        "score": 4.36,
+                        "datetime": "2023-03-11 18:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 21.72,
+                        "score": 4.36,
+                        "datetime": "2023-03-12 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 24.45,
+                        "score": 4.36,
+                        "datetime": "2023-03-12 18:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 20.54,
+                        "score": 4.36,
+                        "datetime": "2023-03-13 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 20.47,
+                        "score": 4.36,
+                        "datetime": "2023-03-13 18:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 18.03,
+                        "score": 4.36,
+                        "datetime": "2023-03-14 06:00:00"
+                    },
+                    {
+                        "actual": 27.0,
+                        "predict": 18.7,
+                        "score": 4.36,
+                        "datetime": "2023-03-14 18:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 14.47,
+                        "score": 4.36,
+                        "datetime": "2023-03-15 06:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 22.79,
+                        "score": 4.36,
+                        "datetime": "2023-03-15 18:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 13.38,
+                        "score": 4.36,
+                        "datetime": "2023-03-16 06:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 15.8,
+                        "score": 4.36,
+                        "datetime": "2023-03-16 18:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 11.39,
+                        "score": 4.36,
+                        "datetime": "2023-03-17 06:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 15.18,
+                        "score": 4.36,
+                        "datetime": "2023-03-17 18:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 11.08,
+                        "score": 4.36,
+                        "datetime": "2023-03-18 06:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 16.65,
+                        "score": 4.36,
+                        "datetime": "2023-03-18 18:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 14.43,
+                        "score": 4.36,
+                        "datetime": "2023-03-19 06:00:00"
+                    },
+                    {
+                        "actual": 11.0,
+                        "predict": 14.0,
+                        "score": 4.36,
+                        "datetime": "2023-03-19 18:00:00"
+                    },
+                    {
+                        "actual": 9.0,
+                        "predict": 12.39,
+                        "score": 4.36,
+                        "datetime": "2023-03-20 06:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 16.0,
+                        "score": 4.36,
+                        "datetime": "2023-03-20 18:00:00"
+                    },
+                    {
+                        "actual": 13.0,
+                        "predict": 13.0,
+                        "score": 4.36,
+                        "datetime": "2023-03-21 06:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 18.27,
+                        "score": 4.36,
+                        "datetime": "2023-03-21 18:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 16.2,
+                        "score": 4.36,
+                        "datetime": "2023-03-22 06:00:00"
+                    },
+                    {
+                        "actual": 20.0,
+                        "predict": 17.77,
+                        "score": 4.36,
+                        "datetime": "2023-03-22 18:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 18.28,
+                        "score": 4.36,
+                        "datetime": "2023-03-23 06:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 20.13,
+                        "score": 4.36,
+                        "datetime": "2023-03-23 18:00:00"
+                    },
+                    {
+                        "actual": 14.0,
+                        "predict": 16.41,
+                        "score": 4.36,
+                        "datetime": "2023-03-24 06:00:00"
+                    },
+                    {
+                        "actual": 21.0,
+                        "predict": 26.31,
+                        "score": 4.36,
+                        "datetime": "2023-03-24 18:00:00"
+                    },
+                    {
+                        "actual": 17.0,
+                        "predict": 15.41,
+                        "score": 4.36,
+                        "datetime": "2023-03-25 06:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 21.73,
+                        "score": 4.36,
+                        "datetime": "2023-03-25 18:00:00"
+                    },
+                    {
+                        "actual": 16.0,
+                        "predict": 16.89,
+                        "score": 4.36,
+                        "datetime": "2023-03-26 06:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 28.15,
+                        "score": 4.36,
+                        "datetime": "2023-03-26 18:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 14.97,
+                        "score": 4.36,
+                        "datetime": "2023-03-27 06:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 24.02,
+                        "score": 4.36,
+                        "datetime": "2023-03-27 18:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 20.86,
+                        "score": 4.36,
+                        "datetime": "2023-03-28 06:00:00"
+                    },
+                    {
+                        "actual": 41.0,
+                        "predict": 21.03,
+                        "score": 4.36,
+                        "datetime": "2023-03-28 18:00:00"
+                    },
+                    {
+                        "actual": 33.0,
+                        "predict": 21.74,
+                        "score": 4.36,
+                        "datetime": "2023-03-29 06:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 27.81,
+                        "score": 4.36,
+                        "datetime": "2023-03-29 18:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 29.66,
+                        "score": 4.36,
+                        "datetime": "2023-03-30 06:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 20.38,
+                        "score": 4.36,
+                        "datetime": "2023-03-30 18:00:00"
+                    },
+                    {
+                        "actual": 20.0,
+                        "predict": 19.56,
+                        "score": 4.36,
+                        "datetime": "2023-03-31 06:00:00"
+                    },
+                    {
+                        "actual": 27.0,
+                        "predict": 28.18,
+                        "score": 4.36,
+                        "datetime": "2023-03-31 18:00:00"
+                    },
+                    {
+                        "actual": 23.0,
+                        "predict": 21.37,
+                        "score": 4.36,
+                        "datetime": "2023-04-01 06:00:00"
+                    },
+                    {
+                        "actual": 37.0,
+                        "predict": 22.11,
+                        "score": 4.36,
+                        "datetime": "2023-04-01 18:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 23.31,
+                        "score": 4.36,
+                        "datetime": "2023-04-02 06:00:00"
+                    },
+                    {
+                        "actual": 28.0,
+                        "predict": 29.32,
+                        "score": 4.36,
+                        "datetime": "2023-04-02 18:00:00"
+                    },
+                    {
+                        "actual": 24.0,
+                        "predict": 18.98,
+                        "score": 4.36,
+                        "datetime": "2023-04-03 06:00:00"
+                    },
+                    {
+                        "actual": 29.0,
+                        "predict": 26.67,
+                        "score": 4.36,
+                        "datetime": "2023-04-03 18:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 20.2,
+                        "score": 4.36,
+                        "datetime": "2023-04-04 06:00:00"
+                    },
+                    {
+                        "actual": 30.0,
+                        "predict": 24.21,
+                        "score": 4.36,
+                        "datetime": "2023-04-04 18:00:00"
+                    },
+                    {
+                        "actual": 25.0,
+                        "predict": 16.21,
+                        "score": 4.36,
+                        "datetime": "2023-04-05 06:00:00"
+                    },
+                    {
+                        "actual": 32.0,
+                        "predict": 25.87,
+                        "score": 4.36,
+                        "datetime": "2023-04-05 18:00:00"
+                    },
+                    {
+                        "actual": 26.0,
+                        "predict": 24.33,
+                        "score": 4.36,
+                        "datetime": "2023-04-06 06:00:00"
+                    },
+                    {
+                        "actual": 34.0,
+                        "predict": 24.75,
+                        "score": 4.36,
+                        "datetime": "2023-04-06 18:00:00"
+                    },
+                    {
+                        "actual": 12.0,
+                        "predict": 22.08,
+                        "score": 4.36,
+                        "datetime": "2023-04-07 06:00:00"
+                    },
+                    {
+                        "actual": 27.0,
+                        "predict": 24.7,
+                        "score": 4.36,
+                        "datetime": "2023-04-07 18:00:00"
+                    },
+                    {
+                        "actual": 15.0,
+                        "predict": 14.85,
+                        "score": 4.36,
+                        "datetime": "2023-04-08 06:00:00"
+                    },
+                    {
+                        "actual": 19.0,
+                        "predict": 26.29,
+                        "score": 4.36,
+                        "datetime": "2023-04-08 18:00:00"
+                    },
+                    {
+                        "actual": 18.0,
+                        "predict": 15.56,
+                        "score": 4.36,
+                        "datetime": "2023-04-09 06:00:00"
+                    },
+                    {
+                        "actual": 22.0,
+                        "predict": 16.09,
+                        "score": 4.36,
+                        "datetime": "2023-04-09 18:00:00"
+                    },
+                    {
+                        "actual": 10.0,
+                        "predict": 15.64,
+                        "score": 4.36,
+                        "datetime": "2023-04-10 06:00:00"
+                    },
+                    {
+                        "actual": 17.0,
+                        "predict": 19.97,
+                        "score": 4.36,
+                        "datetime": "2023-04-10 18:00:00"
+                    },
+                    {
+                        "actual": 8.0,
+                        "predict": 11.54,
+                        "score": 4.36,
+                        "datetime": "2023-04-11 06:00:00"
+                    }
+                ]
+            }
+        ]
+    }
+]

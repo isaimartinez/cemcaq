@@ -1,11 +1,10 @@
 import React from 'react'
 import {Header, AreaChart, PollutionLevels} from '../../components'
-import {seriesHistVsPred} from '../../data/chartsConfig'
+import {seriesHistVsPred, seriesActualVsPred3} from '../../data/chartsConfig'
 import { usePollutant } from './usePollutant'
 
 const Pollutant = () => {
-  const {id, station, pm10Data, pm10Cat, pollutant, histVsPredCat} = usePollutant()
-  console.log(seriesHistVsPred)
+  const {id, station, pm10Data, pm10Cat, pollutant, histVsPredCat, actualVsPred, actualVsPredCat} = usePollutant()
   if(station) 
   return (
     <>
@@ -21,7 +20,8 @@ const Pollutant = () => {
 
         <div className='flex bg-main dark:bg-main-dark flex-col m-5 p-3  rounded'>
           <p className='text-zinc-800 dark:text-neutral-50 text-3xl'>{pollutant} Mean-Max-Min EWMA</p>
-          <AreaChart series={pm10Data} categories={pm10Cat}/>
+          {/* <AreaChart series={pm10Data} categories={pm10Cat}/> */}
+          <AreaChart series={actualVsPred} categories={actualVsPredCat}/>
         </div>
         <div className='flex bg-main dark:bg-main-dark flex-col m-5 p-3  rounded'>
           <p className='text-zinc-800 dark:text-neutral-50 text-3xl'>{pollutant} Historical vs Predictions (Last 7 days)</p>

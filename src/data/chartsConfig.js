@@ -345,13 +345,26 @@ export const seriesHistVsPred = [{
   data: generateData(14, {min:5, max:50})
 }]
 
+export const seriesActualVsPred3 = [{
+  name: 'Actual Max_PM10',
+  data: generateData(21, {min:5, max:50})
+},{
+  name: 'Actual Min_PM10',
+  data: generateData(21, {min:5, max:50})
+},{
+  name: 'Actual Mean_PM10',
+  data: generateData(21, {min:5, max:50})
+},{
+  name: 'Predict Max_PM10',
+  data: generateData(21, {min:5, max:50})
+},{
+  name: 'Predict Min_PM10',
+  data: generateData(21, {min:5, max:50})
+},{
+  name: 'Predict Mean_PM10',
+  data: generateData(21, {min:5, max:50})
+},
 
-// export const seriesHistVsPred = [{
-//   name: 'series1',
-//   data: [31, 40, 28, 51]
-// }, {
-//   name: 'series2',
-//   data: [11, 32, 45, 32]
-// }]
+]
 
 
