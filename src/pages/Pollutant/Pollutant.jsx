@@ -24,7 +24,9 @@ const Pollutant = () => {
             <div className='flex bg-main dark:bg-main-dark flex-col m-5 p-3  rounded'>
               <p className='text-zinc-800 dark:text-neutral-50 text-3xl'>{pollutant} Mean-Max-Min Actual Vs Predict</p>
               {/* <AreaChart series={pm10Data} categories={pm10Cat}/> */}
-              <AreaChart series={actualVsPred} categories={actualVsPredCat}/>
+              <div className='flex  items-center justify-center'>
+                <AreaChart series={actualVsPred} categories={actualVsPredCat}/>
+              </div>
             </div>
 
           ) : (
@@ -32,12 +34,16 @@ const Pollutant = () => {
 
             <div className='flex bg-main dark:bg-main-dark flex-col m-5 p-3  rounded'>
               <p className='text-zinc-800 dark:text-neutral-50 text-3xl'>{pollutant} Mean-Max-Min EWMA</p>
-              <AreaChart series={pm10Data} categories={pm10Cat}/>
+              <div className='flex  items-center justify-center'>
+                <AreaChart series={pm10Data} categories={pm10Cat}/>
+              </div>
               {/* <AreaChart series={actualVsPred} categories={actualVsPredCat}/> */}
             </div>
             <div className='flex bg-main dark:bg-main-dark flex-col m-5 p-3  rounded'>
               <p className='text-zinc-800 dark:text-neutral-50 text-3xl'>{pollutant} Historical vs Predictions (Last 7 days)</p>
-              <AreaChart series={seriesHistVsPred} categories={histVsPredCat}/>
+              <div className='flex  items-center justify-center'>
+                <AreaChart series={seriesHistVsPred} categories={histVsPredCat}/>
+              </div>
             </div>
             </>
           )

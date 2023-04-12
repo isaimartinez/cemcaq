@@ -7,9 +7,9 @@ const HeatMapChart = () => {
   const {currentMode} = useSelector((state) => state.view)
 
   return (
-    // <div className=' bg-red-400  justify-center items-center'>
-      <Chart type='heatmap' height={350} width="100%" options={optionsHeatMap(currentMode)} series={seriesHeatMap}/>
-    // </div>
+    <div className='w-11/12'>
+      <Chart type='heatmap' height={400} width="100%" options={optionsHeatMap(currentMode)} series={seriesHeatMap}/>
+    </div>
   )
 }
 

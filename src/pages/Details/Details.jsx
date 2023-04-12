@@ -21,13 +21,17 @@ const Details = () => {
         </div>
         <div className='flex bg-main dark:bg-main-dark flex-col m-5 p-3  rounded'>
           <p className='text-zinc-800 dark:text-neutral-50 text-3xl'>HeatMap</p>
-          <HeatMapChart />
+          <div className='flex  items-center justify-center'>
+            <HeatMapChart />
+          </div>
         </div>
 
 
         <div className='flex bg-main dark:bg-main-dark flex-col m-5 p-3 rounded'>
           <p className='text-zinc-800 dark:text-neutral-50 text-3xl'>Predicted Values PM10 vs PM2.5 (36 hrs)</p>
-          <AreaChart series={seriesPM} categories={pred36Cat}/>
+          <div className='flex  items-center justify-center'>
+            <AreaChart series={seriesPM} categories={pred36Cat}/>
+          </div>
         </div>
 
       </section>
